@@ -36,7 +36,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |1|[A + B Problem](http://lintcode.com/en/problem/a-b-problem/)| [C++](./C++/a-b-problem.cpp)| _O(1)_ | _O(1)_ | Medium | | |
 |82|[Single Number](http://lintcode.com/en/problem/single-number/)| [C++](./C++/single-number.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode| |
 |83|[Single Number II](http://lintcode.com/en/problem/single-number-ii/)| [C++](./C++/single-number-ii.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|84|[Single Number III](http://lintcode.com/en/problem/single-number-iii/)| [C++](./C++/single-number-iii.cpp)| _O(n)_ | _O(1)_ | Medium | CTCI | |
+|84|[Single Number III](http://lintcode.com/en/problem/single-number-iii/)| [C++](./C++/single-number-iii.cpp) [Python](./Python/single-number-iii.py)| _O(n)_ | _O(1)_ | Medium | CTCI | |
 |142|[O(1) Check Power of 2](http://lintcode.com/en/problem/o1-check-power-of-2/)| [C++](./C++/o1-check-power-of-2.cpp)| _O(1)_ | _O(1)_ | Easy | | |
 |179|[Update Bits](http://lintcode.com/en/problem/update-bits/)| [C++](./C++/update-bits.cpp)| _O(1)_ | _O(1)_ | Medium | CTCI | |
 |181|[Flip Bits](http://lintcode.com/en/problem/flip-bits/)| [C++](./C++/flip-bits.cpp)| _O(1)_ | _O(1)_ | Easy | CTCI | |
@@ -199,6 +199,8 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |488| [Happy Number](http://lintcode.com/en/problem/happy-number/)      | [C++](./C++/happy-number.cpp)   | _O(k)_  | _O(k)_          | Easy          | LeetCode |
 547| [Intersection of Two Arrays](http://lintcode.com/en/problem/intersection-of-two-arrays/) | [C++](./C++/intersection-of-two-arrays.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
 548| [Intersection of Two Arrays II](http://lintcode.com/en/problem/intersection-of-two-arrays-ii/) | [C++](./C++/intersection-of-two-arrays-ii.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
+828| [Word Pattern](https://lintcode.com/problem/word-pattern/description) | [Python](./Python/word-pattern.py) | _O(n)_ | _O(n)_ | Easy | |
+1443| [longest-ab-substring](https://lintcode.com/problem/longest-ab-substring/description) | [Python](.Python/longest-ab-substring.py) | _O(n)_ | _O(n)_ | Medium | | prefixSum, Hash Table
 
 ## Data Structure
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -289,7 +291,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |63|[Search in Rotated Sorted Array II](http://lintcode.com/en/problem/search-in-rotated-sorted-array-ii/)| [C++](./C++/search-in-rotated-sorted-array-ii.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |65|[Median of two Sorted Arrays](http://lintcode.com/en/problem/median-of-two-sorted-arrays/)| [C++](./C++/median-of-two-sorted-arrays.cpp)| _O(log(min(m, n)))_ | _O(1)_ | Hard | LeetCode, EPI | Tricky |
 |74|[First Bad Version](http://lintcode.com/en/problem/first-bad-version/)| [C++](./C++/first-bad-version.cpp)| _O(logn)_ | _O(1)_ | Medium | | |
-|75|[Find Peak Element](http://lintcode.com/en/problem/find-peak-element/)| [C++](./C++/find-peak-element.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
+|75|[Find Peak Element](http://lintcode.com/en/problem/find-peak-element/)| [C++](./C++/find-peak-element.cpp) [Python](./Python/find-peak-element.py)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |76|[Longest Increasing Subsequence](http://lintcode.com/en/problem/longest-increasing-subsequence/)| [C++](./C++/longest-increasing-subsequence.cpp)| _O(nlogn)_ | _O(n)_ | Medium | CTCI | |
 |141|[Sqrt(x)](http://lintcode.com/en/problem/sqrtx/)| [C++](./C++/sqrtx.cpp)| _O(logn)_ | _O(1)_ | Easy | LeetCode | |
 |159|[Find Minimum in Rotated Sorted Array](http://lintcode.com/en/problem/find-minimum-in-rotated-sorted-array/)| [C++](./C++/find-minimum-in-rotated-sorted-array.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
@@ -361,7 +363,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |79|[Longest Common Substring](http://lintcode.com/en/problem/longest-common-substring/)| [C++](./C++/longest-common-substring.cpp)| _O(m * n)_ | _O(min(m, n))_ | Medium | | |
 |89|[K Sum](http://lintcode.com/en/problem/k-sum/)| [C++](./C++/k-sum.cpp)| _O(k * n * t)_ | _O(n * t)_ | Hard | | |
 |91|[Minimum Adjustment Cost](http://lintcode.com/en/problem/minimum-adjustment-cost/)| [C++](./C++/minimum-adjustment-cost.cpp)| _O(k * n * t)_ | _O(k)_ | Medium | | |
-|92|[Backpack](http://lintcode.com/en/problem/backpack/)| [C++](./C++/backpack.cpp)| _O(m * n)_ | _O(m)_ | Easy | | |
+|92|[Backpack](http://lintcode.com/en/problem/backpack/)| [C++](./C++/backpack.cpp) [Python](./Python/backpack.py) | _O(m * n)_ | _O(m)_ | Easy | | |
 |107|[Word Break](http://lintcode.com/en/problem/word-break/)| [C++](./C++/word-break.cpp)| _O(n * l^2)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |108|[Palindrome Partitioning II](http://lintcode.com/en/problem/palindrome-partitioning-ii/)| [C++](./C++/palindrome-partitioning-ii.cpp)| _O(n^2)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |109|[Triangle](http://lintcode.com/en/problem/triangle/)| [C++](./C++/triangle.cpp)| _O(n)_ | _O(n)_ | Easy | LeetCode, EPI | |
@@ -423,4 +425,53 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## System Design
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|501|[Mini Twitter](http://www.lintcode.com/en/problem/mini-twitter/)| [C++](./C++/mini-twitter.cpp)| _O(klogu)_ | _O(t + f)_ | Medium | | |
+|Sys1|News Feed System| | | | | | |
+|501|[Mini Twitter](http://www.lintcode.com/en/problem/mini-twitter/)| [C++](./C++/mini-twitter.cpp) [Python](./Python/design-twitter.py) | _O(klogu)_ | _O(t + f)_ | Medium | | Heap |
+|560|[Friendship Service](http://www.lintcode.com/en/problem/friendship-service/)| [Python](./Python/friendship-service.py) | | | Easy | | Hash |
+|Sys2|Database and Cache| | | | | | |
+|519|[Consistent Hashing](http://www.lintcode.com/en/problem/consistent-hashing/)| [Python](./Python/consistent-hashing.py) | _O(nlogn)_ | _O(n)_ | Easy | | Heap |
+|520|[Consistent Hashing II](http://www.lintcode.com/en/problem/consistent-hashing-ii/)| [Python](./Python/consistent-hashing-ii.py) | | | Medium | | bisect, random |
+|538|[Memcache](http://www.lintcode.com/en/problem/memcache/)| [Python](./Python/memcache.py) | | | Easy | | Hash |
+|502|[mini-cassandra](http://www.lintcode.com/en/problem/mini-cassandra/)| [Python](./Python/mni-cassandraemcache.py) | | | Easy | | Hash |
+|134|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/)| [Python](./Python/lru-cache.py) | _O(1)_ | _O(k)_ | Hard | | OrderedDict, Doubly LinkedList + Hash |
+|24|[LFU Cache](http://www.lintcode.com/en/problem/lfu-cache/)| [Python](./Python/lfu-cache.py) | _O(1)_ | _O(k)_ | Hard | | Doubly LinkedList + Hash |
+|Sys3|Tiny URL| | | | | | |
+|232|[Tiny Url](https://lintcode.com/problem/tiny-url/description)| [Python](./Python/tiny-url.py) | | | Easy| Hash, Dict |
+|522|[Tiny Url II](https://lintcode.com/problem/tiny-url-ii/description)| [Python](./Python/tiny-url-ii.py) | | | Medium | Hash, Dict |
+|526|[Load Balancer](https://lintcode.com/problem/load-balancer/description)| [Python](./Python/load-balancer.py) | | | Easy | Set, random |
+|Sys4|Location Based Service| | | | | | |
+|529|[Geohash](https://lintcode.com/problem/geohash/description)| [Python](./Python/geohash.py) | | | Medium | Geohash |
+|530|[Geohash II](https://lintcode.com/problem/geohash-ii/description)| [Python](./Python/geohash-ii.py) | | | Medium | Geohash |
+|525|[Mini Uber](https://lintcode.com/problem/mini-uber/description)| [Python](./Python/mini-uber.py) | | | Medium | |
+|509|[Mini Yelp](https://lintcode.com/problem/mini-yelp/description)| [Python](./Python/mini-yelp.py) | | | Hard | Geohash, Bisect |
+|Sys5|Web Crawler and Google Suggestion| | | | | | |
+|500|[Inverted Index](https://lintcode.com/problem/inverted-index/description)| [Python](./Python/inverted-index.py) | | | Easy | |
+|523|[Url Parser](https://lintcode.com/problem/url-parser/description)| [Python](./Python/url-parser.py) | | | Hard | Regex |
+|442|[Implement Trie (Prefix Tree)](https://lintcode.com/problem/implement-trie-prefix-tree/description)| [Python](./Python/implement-trie-prefix-tree.py) | | | Medium | Trie |
+|559|[Trie Service](https://lintcode.com/problem/trie-service/description)| [Python](./Python/trie-service.py) | | | Medium | Trie |
+|527|[Trie Serializatioin](https://lintcode.com/problem/trie-serialization/description)| [Python](./Python/trie-serialization.py) | | | Hard | Trie, Stack |
+|231|[Typeahead](https://lintcode.com/problem/typeahead/description)| [Python](./Python/typeahead.py) | | | Medium | Set |
+|234|[Webpage Crawler](https://lintcode.com/problem/webpage-crawler/description)| [Python](./Python/webpage-crawler.py) | | | Hard | Thread |
+|Sys6|Distributed File System| | | | | | |
+|566|[GFS Client](https://lintcode.com/problem/gfs-client/description)| [Python](./Python/gfs-cilent.py) | | | Easy | |
+|565|[Heart Beat](https://lintcode.com/problem/heart-beat/description)| [Python](./Python/heart-beat.py) | | | Easy | |
+|Sys7|Map Reduce| | | | | | |
+|499|[Word Count (Map Reduce)](https://lintcode.com/problem/word-count-map-reduce/description)| [Python](./Python/word-count-map-reduce.py) | | | Easy | |
+|549|[Top K Frequent Words (Map Reduce)](https://lintcode.com/problem/top-k-frequent-words-map-reduce/description)| [C++](./C++/top-k-frequent-words-map-reduce.cpp) | | | Medium | |
+|503|[Anagram (Map Reduce)](https://lintcode.com/problem/anagram-map-reduce/description)| [Python](./Python/anagram-map-reduce.py) | | | Easy | |
+|504|[Inverted Index (Map Reduce)](https://lintcode.com/problem/inverted-index-map-reduce/description)| [Python](./Python/inverted-index-map-reduce.py) | | | Easy | |
+|654|[Sparse Matrix Multiplication](https://lintcode.com/problem/sparse-matrix-multiplication/description)| [Python](./Python/sparse-matrix-multiplication.py) | | | Easy | |
+|Sys8|Bigtable| | | | | | |
+|556|[Standard Bloom Filter](https://lintcode.com/problem/standard-bloom-filter/description)| [Python](./Python/standard-bloom-filter.py) | | | Medium | Hash |
+|555|[Counting Bloom Filter](https://lintcode.com/problem/counting-bloom-filter/description)| [Python](./Python/counting-bloom-filter.py) | | | Medium | Hash |
+|486|[Merge K Sorted Arrays](https://lintcode.com/problem/merge-k-sorted-arrays/description)| [Python](./Python/merge-k-sorted-arrays.py) | | | Easy | Heap |
+|Sys9|Message System, Rate Limiter and Design Pattern| | | | | | |
+|505|[Web logger](https://lintcode.com/problem/web-logger/description)| [Python](./Python/web-logger.py) | | | Easy | |
+|215|[Rate Limiter](https://lintcode.com/problem/rate-limiter/description)| [Python](./Python/rate-limiter.py) | | | Hard | Bisect |
+|204|[Singleton](https://lintcode.com/problem/singleton/description)| [Python](./Python/singleton.py) | | | Hard | |
+|496|[Toy Factory](https://lintcode.com/problem/toy-factory/description)| [Python](./Python/toy-factory.py) | | | Medium | |
+|497|[Shape Factory](https://lintcode.com/problem/shape-factory/description)| [Python](./Python/shape-factory.py) | | | Medium | |
+
+
+|OOD|OOD| | | | | | |
+|498|[Parking Lot](https://lintcode.com/problem/parking-lot/description)| [Python](./Python/parking-lot.py) | | | Hard | |
