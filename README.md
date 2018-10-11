@@ -3,32 +3,32 @@
 Up to date (2016-08-22), there are `289` problems on [LintCode Online Judge](http://lintcode.com/).
 The number of problems is increasing recently.
 Here is the classification of all `289` problems.
-For more problems and solutions, you can see my [LeetCode](https://github.com/kamyu104/LeetCode) repository.
+For more problems and solutions, you can see my [LeetCode](https://github.com/RideGreg/LeetCode) repository.
 I'll keep updating for full summary and better solutions. Stay tuned for updates.
 
 ## Algorithms
-* [Bit Manipulation](https://github.com/kamyu104/LintCode#bit-manipulation)
-* [Array](https://github.com/kamyu104/LintCode#array)
-* [String](https://github.com/kamyu104/LintCode#string)
-* [Linked List](https://github.com/kamyu104/LintCode#linked-list)
-* [Math](https://github.com/kamyu104/LintCode#math)
-* [Tree](https://github.com/kamyu104/LintCode#tree)
-* [Stack](https://github.com/kamyu104/LintCode#stack)
-* [Queue](https://github.com/kamyu104/LintCode#queue)
-* [Heap](https://github.com/kamyu104/LintCode#heap)
-* [Hash Tables](https://github.com/kamyu104/LintCode#hash-tables)
-* [Data Structure](https://github.com/kamyu104/LintCode#data-structure)
-* [Sort](https://github.com/kamyu104/LintCode#sort)
-* [Recursion](https://github.com/kamyu104/LintCode#recursion)
-* [Binary Search](https://github.com/kamyu104/LintCode#binary-search)
-* [Breadth-First Search](https://github.com/kamyu104/LintCode#breadth-first-search)
-* [Depth-First Search](https://github.com/kamyu104/LintCode#depth-first-search)
-* [Backtracking](https://github.com/kamyu104/LintCode#backtracking)
-* [Binary Search Trees](https://github.com/kamyu104/LintCode#binary-search-trees)
-* [Dynamic Programming](https://github.com/kamyu104/LintCode#dynamic-programming)
-* [Greedy](https://github.com/kamyu104/LintCode#greedy)
-* [OO Design](https://github.com/kamyu104/LintCode#oo-design)
-* [System Design](https://github.com/kamyu104/LintCode#system-design)
+* [Bit Manipulation](https://github.com/RideGreg/LintCode#bit-manipulation)
+* [Array](https://github.com/RideGreg/LintCode#array)
+* [String](https://github.com/RideGreg/LintCode#string)
+* [Linked List](https://github.com/RideGreg/LintCode#linked-list)
+* [Math](https://github.com/RideGreg/LintCode#math)
+* [Tree](https://github.com/RideGreg/LintCode#tree)
+* [Stack](https://github.com/RideGreg/LintCode#stack)
+* [Queue](https://github.com/RideGreg/LintCode#queue)
+* [Heap](https://github.com/RideGreg/LintCode#heap)
+* [Hash Tables](https://github.com/RideGreg/LintCode#hash-tables)
+* [Data Structure](https://github.com/RideGreg/LintCode#data-structure)
+* [Sort](https://github.com/RideGreg/LintCode#sort)
+* [Recursion](https://github.com/RideGreg/LintCode#recursion)
+* [Binary Search](https://github.com/RideGreg/LintCode#binary-search)
+* [Breadth-First Search](https://github.com/RideGreg/LintCode#breadth-first-search)
+* [Depth-First Search](https://github.com/RideGreg/LintCode#depth-first-search)
+* [Backtracking](https://github.com/RideGreg/LintCode#backtracking)
+* [Binary Search Trees](https://github.com/RideGreg/LintCode#binary-search-trees)
+* [Dynamic Programming](https://github.com/RideGreg/LintCode#dynamic-programming)
+* [Greedy](https://github.com/RideGreg/LintCode#greedy)
+* [OO Design](https://github.com/RideGreg/LintCode#oo-design)
+* [System Design](https://github.com/RideGreg/LintCode#system-design)
 
 ## Bit Manipulation
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -416,11 +416,21 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## OO Design
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|204|[Singleton](http://lintcode.com/en/problem/singleton/)| [C++](./C++/singleton.cpp)| _O(1)_ | _O(1)_ | Easy | | |
+|204|[Singleton](http://lintcode.com/en/problem/singleton/)| [C++](./C++/singleton.cpp) [Python](./Python/singleton.py) | _O(1)_ | _O(1)_ | Easy | | |
 |208|[Assignment Operator Overloading (C++ Only)](http://lintcode.com/en/problem/assignment-operator-overloading-c-only/)| [C++](./C++/assignment-operator-overloading-c-only.cpp)| _O(n)_ | _O(1)_ | Medium | | |
-|496|[Toy Factory](http://www.lintcode.com/en/problem/toy-factory/)| [C++](./C++/toy-factory.cpp)| _O(1)_ | _O(1)_ | Easy | | |
-|497|[Shape Factory](http://www.lintcode.com/en/problem/shape-factory/)| [C++](./C++/shape-factory.cpp)| _O(1)_ | _O(1)_ | Easy | | |
-|498|[Parking Lot](http://www.lintcode.com/en/problem/parking-lot/)| [C++](./C++/parking-lot.cpp)| _O(n * m * k)_ | _O(n * m * k)_ | Hard | CTCI | OO Design, Pimpl Idiom, Smart Pointer |
+|496|[Toy Factory](http://www.lintcode.com/en/problem/toy-factory/)| [C++](./C++/toy-factory.cpp) [Python](./Python/toy-factory.py) | _O(1)_ | _O(1)_ | Easy | | |
+|497|[Shape Factory](http://www.lintcode.com/en/problem/shape-factory/)| [C++](./C++/shape-factory.cpp) [Python](./Python/shape-factory.py) | _O(1)_ | _O(1)_ | Easy | | |
+|498|[Parking Lot](http://www.lintcode.com/en/problem/parking-lot/)| [C++](./C++/parking-lot.cpp) [Python](./Python/parking-lot.py) [Java](./Java/parking-lot.java | _O(n * m * k)_ | _O(n * m * k)_ | Hard | CTCI | OO Design |
+|708|[Elevator System OO Design](https://www.lintcode.com/problem/elevator-system-oo-design/)| [Python](./Python/elevator-system-oo-design.py) [C++](./C++/elevator-system-oo-design.cpp) [Java](./Java/elevator-system-oo-design.java) | | | Hard | | OO Design |
+|709|[Restaurant OO Design](https://www.lintcode.com/problem/restaurant-oo-design/)| [C++](./C++/restaurant-oo-design.cpp) [Java](./Java/restaurant-oo-design.java) | | | Hard | | OO Design |
+|710|[Hotel OO Design](https://www.lintcode.com/problem/hotel-oo-design/)| [C++](./C++/hotel-oo-design.cpp) [Java](./Java/hotel-oo-design.java) | | | Hard | | OO Design |
+|712|[Vending Machine OO Design](https://www.lintcode.com/problem/vending-machine-oo-design/)| [C++](./C++/vending-machine-oo-design.cpp) [Java](./Java/vending-machine-oo-design.java) | | | Medium | | OO Design |
+|714|[Black Jack OO Design](https://www.lintcode.com/problem/black-jack-oo-design/)| [C++](./C++/black-jack-oo-design.cpp) [Java](./Java/black-jack-oo-design.java) | | | Medium | | OO Design |
+|731|[Restaurant II OO Design](https://www.lintcode.com/problem/restaurant-ii-oo-design/)| [C++](./C++/restaurant-ii-oo-design.cpp) [Java](./Java/restaurant-ii-oo-design.java) | | | Hard | | OO Design |
+|732|[Hotel II OO Design](https://www.lintcode.com/problem/hotel-ii-oo-design/)| [C++](./C++/hotel-ii-oo-design.cpp) [Java](./Java/hotel-ii-oo-design.java) | | | Hard | | OO Design |
+|746|[Tic Tac Toe OO Design](https://www.lintcode.com/problem/tic-tac-toe-oo-design/)| [C++](./C++/tic-tac-toe-oo-design.cpp) [Java](./Java/tic-tac-toe-oo-design.java) [Python](./Python/tic-tac-toe-oo-design.py) | | | Hard | | OO Design |
+|747|[Coffee Maker OO Design](https://www.lintcode.com/problem/coffee-maker-oo-design/)| [C++](./C++/coffee-maker-oo-design.cpp) [Java](./Java/coffee-maker-oo-design.java) | | | Medium | | OO Design, decorator |
+|748|[Kindle OO Design](https://www.lintcode.com/problem/kindle-oo-design/)| [C++](./C++/kindle-oo-design.cpp) [Java](./Java/kindle-oo-design.java) | | | Easy | | OO Design, factory |
 
 ## System Design
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -436,42 +446,35 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |134|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/)| [Python](./Python/lru-cache.py) | _O(1)_ | _O(k)_ | Hard | | OrderedDict, Doubly LinkedList + Hash |
 |24|[LFU Cache](http://www.lintcode.com/en/problem/lfu-cache/)| [Python](./Python/lfu-cache.py) | _O(1)_ | _O(k)_ | Hard | | Doubly LinkedList + Hash |
 |Sys3|Tiny URL| | | | | | |
-|232|[Tiny Url](https://lintcode.com/problem/tiny-url/description)| [Python](./Python/tiny-url.py) | | | Easy| Hash, Dict |
-|522|[Tiny Url II](https://lintcode.com/problem/tiny-url-ii/description)| [Python](./Python/tiny-url-ii.py) | | | Medium | Hash, Dict |
-|526|[Load Balancer](https://lintcode.com/problem/load-balancer/description)| [Python](./Python/load-balancer.py) | | | Easy | Set, random |
+|232|[Tiny Url](https://lintcode.com/problem/tiny-url/description)| [Python](./Python/tiny-url.py) | | | Easy| | Hash, Dict |
+|522|[Tiny Url II](https://lintcode.com/problem/tiny-url-ii/description)| [Python](./Python/tiny-url-ii.py) | | | Medium | |  Hash, Dict |
+|526|[Load Balancer](https://lintcode.com/problem/load-balancer/description)| [Python](./Python/load-balancer.py) | | | Easy | |  Set, random |
 |Sys4|Location Based Service| | | | | | |
-|529|[Geohash](https://lintcode.com/problem/geohash/description)| [Python](./Python/geohash.py) | | | Medium | Geohash |
-|530|[Geohash II](https://lintcode.com/problem/geohash-ii/description)| [Python](./Python/geohash-ii.py) | | | Medium | Geohash |
-|525|[Mini Uber](https://lintcode.com/problem/mini-uber/description)| [Python](./Python/mini-uber.py) | | | Medium | |
-|509|[Mini Yelp](https://lintcode.com/problem/mini-yelp/description)| [Python](./Python/mini-yelp.py) | | | Hard | Geohash, Bisect |
+|529|[Geohash](https://lintcode.com/problem/geohash/description)| [Python](./Python/geohash.py) | | | Medium | |  Geohash |
+|530|[Geohash II](https://lintcode.com/problem/geohash-ii/description)| [Python](./Python/geohash-ii.py) | | | Medium | |  Geohash |
+|525|[Mini Uber](https://lintcode.com/problem/mini-uber/description)| [Python](./Python/mini-uber.py) | | | Medium | | |
+|509|[Mini Yelp](https://lintcode.com/problem/mini-yelp/description)| [Python](./Python/mini-yelp.py) | | | Hard | | Geohash, Bisect |
 |Sys5|Web Crawler and Google Suggestion| | | | | | |
-|500|[Inverted Index](https://lintcode.com/problem/inverted-index/description)| [Python](./Python/inverted-index.py) | | | Easy | |
-|523|[Url Parser](https://lintcode.com/problem/url-parser/description)| [Python](./Python/url-parser.py) | | | Hard | Regex |
-|442|[Implement Trie (Prefix Tree)](https://lintcode.com/problem/implement-trie-prefix-tree/description)| [Python](./Python/implement-trie-prefix-tree.py) | | | Medium | Trie |
-|559|[Trie Service](https://lintcode.com/problem/trie-service/description)| [Python](./Python/trie-service.py) | | | Medium | Trie |
-|527|[Trie Serializatioin](https://lintcode.com/problem/trie-serialization/description)| [Python](./Python/trie-serialization.py) | | | Hard | Trie, Stack |
-|231|[Typeahead](https://lintcode.com/problem/typeahead/description)| [Python](./Python/typeahead.py) | | | Medium | Set |
-|234|[Webpage Crawler](https://lintcode.com/problem/webpage-crawler/description)| [Python](./Python/webpage-crawler.py) | | | Hard | Thread |
+|500|[Inverted Index](https://lintcode.com/problem/inverted-index/description)| [Python](./Python/inverted-index.py) | | | Easy | | |
+|523|[Url Parser](https://lintcode.com/problem/url-parser/description)| [Python](./Python/url-parser.py) | | | Hard | | Regex |
+|442|[Implement Trie (Prefix Tree)](https://lintcode.com/problem/implement-trie-prefix-tree/description)| [Python](./Python/implement-trie-prefix-tree.py) | | | Medium | | Trie |
+|559|[Trie Service](https://lintcode.com/problem/trie-service/description)| [Python](./Python/trie-service.py) | | | Medium | | Trie |
+|527|[Trie Serializatioin](https://lintcode.com/problem/trie-serialization/description)| [Python](./Python/trie-serialization.py) | | | Hard | | Trie, Stack |
+|231|[Typeahead](https://lintcode.com/problem/typeahead/description)| [Python](./Python/typeahead.py) | | | Medium | | Set |
+|234|[Webpage Crawler](https://lintcode.com/problem/webpage-crawler/description)| [Python](./Python/webpage-crawler.py) | | | Hard | | Thread |
 |Sys6|Distributed File System| | | | | | |
-|566|[GFS Client](https://lintcode.com/problem/gfs-client/description)| [Python](./Python/gfs-cilent.py) | | | Easy | |
-|565|[Heart Beat](https://lintcode.com/problem/heart-beat/description)| [Python](./Python/heart-beat.py) | | | Easy | |
+|566|[GFS Client](https://lintcode.com/problem/gfs-client/description)| [Python](./Python/gfs-cilent.py) | | | Easy | | |
+|565|[Heart Beat](https://lintcode.com/problem/heart-beat/description)| [Python](./Python/heart-beat.py) | | | Easy | | |
 |Sys7|Map Reduce| | | | | | |
-|499|[Word Count (Map Reduce)](https://lintcode.com/problem/word-count-map-reduce/description)| [Python](./Python/word-count-map-reduce.py) | | | Easy | |
-|549|[Top K Frequent Words (Map Reduce)](https://lintcode.com/problem/top-k-frequent-words-map-reduce/description)| [C++](./C++/top-k-frequent-words-map-reduce.cpp) | | | Medium | |
-|503|[Anagram (Map Reduce)](https://lintcode.com/problem/anagram-map-reduce/description)| [Python](./Python/anagram-map-reduce.py) | | | Easy | |
-|504|[Inverted Index (Map Reduce)](https://lintcode.com/problem/inverted-index-map-reduce/description)| [Python](./Python/inverted-index-map-reduce.py) | | | Easy | |
-|654|[Sparse Matrix Multiplication](https://lintcode.com/problem/sparse-matrix-multiplication/description)| [Python](./Python/sparse-matrix-multiplication.py) | | | Easy | |
+|499|[Word Count (Map Reduce)](https://lintcode.com/problem/word-count-map-reduce/description)| [Python](./Python/word-count-map-reduce.py) | | | Easy | | |
+|549|[Top K Frequent Words (Map Reduce)](https://lintcode.com/problem/top-k-frequent-words-map-reduce/description)| [C++](./C++/top-k-frequent-words-map-reduce.cpp) | | | Medium | | |
+|503|[Anagram (Map Reduce)](https://lintcode.com/problem/anagram-map-reduce/description)| [Python](./Python/anagram-map-reduce.py) | | | Easy | | |
+|504|[Inverted Index (Map Reduce)](https://lintcode.com/problem/inverted-index-map-reduce/description)| [Python](./Python/inverted-index-map-reduce.py) | | | Easy | | |
+|654|[Sparse Matrix Multiplication](https://lintcode.com/problem/sparse-matrix-multiplication/description)| [Python](./Python/sparse-matrix-multiplication.py) | | | Easy | | |
 |Sys8|Bigtable| | | | | | |
-|556|[Standard Bloom Filter](https://lintcode.com/problem/standard-bloom-filter/description)| [Python](./Python/standard-bloom-filter.py) | | | Medium | Hash |
-|555|[Counting Bloom Filter](https://lintcode.com/problem/counting-bloom-filter/description)| [Python](./Python/counting-bloom-filter.py) | | | Medium | Hash |
-|486|[Merge K Sorted Arrays](https://lintcode.com/problem/merge-k-sorted-arrays/description)| [Python](./Python/merge-k-sorted-arrays.py) | | | Easy | Heap |
+|556|[Standard Bloom Filter](https://lintcode.com/problem/standard-bloom-filter/description)| [Python](./Python/standard-bloom-filter.py) | | | Medium | | Hash |
+|555|[Counting Bloom Filter](https://lintcode.com/problem/counting-bloom-filter/description)| [Python](./Python/counting-bloom-filter.py) | | | Medium | | Hash |
+|486|[Merge K Sorted Arrays](https://lintcode.com/problem/merge-k-sorted-arrays/description)| [Python](./Python/merge-k-sorted-arrays.py) | | | Easy | | Heap |
 |Sys9|Message System, Rate Limiter and Design Pattern| | | | | | |
-|505|[Web logger](https://lintcode.com/problem/web-logger/description)| [Python](./Python/web-logger.py) | | | Easy | |
-|215|[Rate Limiter](https://lintcode.com/problem/rate-limiter/description)| [Python](./Python/rate-limiter.py) | | | Hard | Bisect |
-|204|[Singleton](https://lintcode.com/problem/singleton/description)| [Python](./Python/singleton.py) | | | Hard | |
-|496|[Toy Factory](https://lintcode.com/problem/toy-factory/description)| [Python](./Python/toy-factory.py) | | | Medium | |
-|497|[Shape Factory](https://lintcode.com/problem/shape-factory/description)| [Python](./Python/shape-factory.py) | | | Medium | |
-
-
-|OOD|OOD| | | | | | |
-|498|[Parking Lot](https://lintcode.com/problem/parking-lot/description)| [Python](./Python/parking-lot.py) | | | Hard | |
+|505|[Web logger](https://lintcode.com/problem/web-logger/description)| [Python](./Python/web-logger.py) | | | Easy | | |
+|215|[Rate Limiter](https://lintcode.com/problem/rate-limiter/description)| [Python](./Python/rate-limiter.py) | | | Hard | | Bisect |

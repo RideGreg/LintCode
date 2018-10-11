@@ -16,16 +16,6 @@ class Toy(object):
     def talk(self):
         raise NotImplementedError('This method should have implemented.')
 
-    # this is from http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html
-    # so we can merge Toy and ToyFactory classes into one
-    @staticmethod
-    def factory(type):
-        if type == 'Dog':
-            return Dog()
-        elif type == 'Cat':
-            return Cat()
-        assert 0, "Bad toy creation: " + type
-
 class Dog(Toy):
     def talk(self):
         print 'Wow'
@@ -40,11 +30,8 @@ def toyNameGen():
     for thisClass in Toy.__subclasses__():
         yield thisClass.__name__
 
-for name in toyNameGen():
-    toy = Toy.factory(name)
-    toy.talk()
-
-'''
+# Design: Toy base and factory are 2 classes. factory is an independent class, itself needs instantiated,
+# has a method to return toy instance. Toy base class contains nothing.
 class ToyFactory(object):
     # @param {string} shapeType a string
     # @return {Toy} Get object of the type
@@ -56,8 +43,30 @@ class ToyFactory(object):
 
         return None
 
+# Test
 f = ToyFactory()
 for name in toyNameGen():
     toy = f.getToy(name)
+    toy.talk()
+
+'''
+# Alternative Design: merge Toy base class and factory class into one. factory is a method in Toy base class to
+# return toy instance. This is not good as derived classes Cat and Dog all have factory() method now.
+# This design is from http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Factory.html
+
+class Toy(object):
+    ...
+    
+    @staticmethod
+    def factory(type):
+        if type == 'Dog':
+            return Dog()
+        elif type == 'Cat':
+            return Cat()
+        assert 0, "Bad toy creation: " + type
+
+# Test
+for name in toyNameGen():
+    toy = Toy.factory(name)
     toy.talk()
 '''
