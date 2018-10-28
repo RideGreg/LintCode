@@ -10,23 +10,11 @@ public:
      * @return: void
      */
     void mergeSortedArray(int A[], int m, int B[], int n) {
-        int i = m + n;
-        while (m > 0 && n > 0) {
-            if (A[m - 1] > B[n - 1]) {
-                A[i - 1] = A[m - 1];
-                --m;
-            } else {
-                A[i - 1] = B[n - 1];
-                --n;
-            }
-            --i;
-        }
-
-        while (n > 0) {
-            A[i - 1] = B[n - 1];
-            --n;
-            --i;
-        }
+        int pos = m + n - 1 , i = m - 1 , j = n - 1;
+        while (i >= 0 && j >= 0)
+            A[pos--] = A[i] > B[j] ? A[i--] : B[j--];
+        while (j >= 0)
+            A[pos--] = B[j--];
     }
 };
 

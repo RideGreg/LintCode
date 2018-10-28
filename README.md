@@ -46,7 +46,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Array
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|6|[Merge Sorted Array](http://lintcode.com/en/problem/merge-sorted-array/)| [C++](./C++/merge-sorted-array.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|6|[Merge Sorted Array](http://lintcode.com/en/problem/merge-sorted-array-ii/)| [Python](./Python/merge-sorted-array-ii.py) [C++](./C++/merge-sorted-array-ii.cpp) [Java](./Java/merge-sorted-array-ii.java)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
 |8|[Rotate String](http://lintcode.com/en/problem/rotate-string/)| [C++](./C++/rotate-string.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
 |9|[Fizz Buzz](http://lintcode.com/en/problem/fizz-buzz/)| [C++](./C++/fizz-buzz.cpp)| _O(n)_ | _O(1)_ | Easy | | |
 |30|[Insert Interval](http://lintcode.com/en/problem/insert-interval/)| [C++](./C++/insert-interval.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
@@ -64,7 +64,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |57|[3 Sum](http://lintcode.com/en/problem/3-sum/)| [C++](./C++/3-sum.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
 |58|[4 Sum](http://lintcode.com/en/problem/4-sum/)| [C++](./C++/4-sum.cpp)| _O(n^3)_ | _O(1)_ | Medium | LeetCode | Hash |
 |59|[3 Sum Closest](http://lintcode.com/en/problem/3-sum-closest/)| [C++](./C++/3-sum-closest.cpp)| _O(n^2)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Sort |
-|64|[Merge Sorted Array II](http://lintcode.com/en/problem/merge-sorted-array-ii/)| [C++](./C++/merge-sorted-array-ii.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
+|64|[Merge Sorted Array II](http://lintcode.com/en/problem/merge-sorted-array/)| [Python](./Python/merge-sorted-array.py) [C++](./C++/merge-sorted-array.cpp) | _O(m + n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
 |100|[Remove Duplicates from Sorted Array](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array/)| [C++](./C++/remove-duplicates-from-sorted-array.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
 |101|[Remove Duplicates from Sorted Array II](http://lintcode.com/en/problem/remove-duplicates-from-sorted-array-ii/)| [C++](./C++/remove-duplicates-from-sorted-array-ii.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
 |133|[Longest Words](http://lintcode.com/en/problem/longest-words/)| [C++](./C++/longest-words.cpp)| _O(n)_ | _O(n)_ | Easy | | |
@@ -253,8 +253,8 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |22|[Flatten List](http://lintcode.com/en/problem/flatten-list/)| [C++](./C++/flatten-list.cpp)| _O(n)_ | _O(h)_ | Easy || |
 |72|[Construct Binary Tree from Inorder and Postorder Traversal](http://lintcode.com/en/problem/construct-binary-tree-from-inorder-and-postorder-traversal/)| [C++](./C++/construct-binary-tree-from-inorder-and-postorder-traversal.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |73|[Construct Binary Tree from Preorder and Inorder Traversal](http://lintcode.com/en/problem/construct-binary-tree-from-preorder-and-inorder-traversal/)| [C++](./C++/construct-binary-tree-from-preorder-and-inorder-traversal.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode, EPI | |
-|93|[Balanced Binary Tree](http://lintcode.com/en/problem/balanced-binary-tree/)| [C++](./C++/balanced-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
-|94|[Binary Tree Maximum Path Sum](http://lintcode.com/en/problem/binary-tree-maximum-path-sum/)| [C++](./C++/binary-tree-maximum-path-sum.cpp)| _O(n)_ | _O(h)_ | Medium | LeetCode | |
+|93|[Balanced Binary Tree](http://lintcode.com/en/problem/balanced-binary-tree/)| [C++](./C++/balanced-binary-tree.cpp) [Python](../LeetCode/Python/balanced-binary-tree.py) | _O(n)_ | _O(h)_ | Easy | See LeetCode | Tree DP |
+|94|[Binary Tree Maximum Path Sum](http://lintcode.com/en/problem/binary-tree-maximum-path-sum/)| [C++](./C++/binary-tree-maximum-path-sum.cpp)| _O(n)_ | _O(h)_ | Medium | See LeetCode | Tree DP |
 |95|[Validate Binary Search Tree](http://lintcode.com/en/problem/validate-binary-search-tree/)| [C++](./C++/validate-binary-search-tree.cpp)| _O(n)_ | _O(h)_ | Medium | LeetCode | |
 |97|[Maximum Depth of Binary Tree](http://lintcode.com/en/problem/maximum-depth-of-binary-tree/)| [C++](./C++/maximum-depth-of-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
 |131|[Building Outline](http://lintcode.com/en/problem/building-outline/)| [C++](./C++/building-outline.cpp) [Python](./Python/building-outline.py)| _O(nlogn)_ | _O(n)_ | Hard | EPI | Sort, BST |
@@ -314,6 +314,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |178| [Graph Valid Tree](http://lintcode.com/en/problem/graph-valid-tree/)| [C++](./C++/graph-valid-tree.cpp) | _O(\|V\| + \|E\|)_          | _O(\|V\| + \|E\|)_          | Medium         | LeetCode ||
 |431|[Find the Connected Component in the Undirected Graph](http://lintcode.com/en/problem/find-the-connected-component-in-the-undirected-graph/)| [C++](./C++/find-the-connected-component-in-the-undirected-graph.cpp)| _O(n)_ | _O(n)_ | Medium | | BFS |
 |477|[Surrounded Regions](http://lintcode.com/en/problem/surrounded-regions/)|[C++](./C++/surrounded-regions.cpp)| _O(m * n)_ | _O(m + n)_ | Medium         | LeetCode ||
+|630|[Knight Shortest Path II](http://lintcode.com/en/problem/knight-shortest-path-ii)|[Python](./Python/knight-shortest-path-ii.py)| _O(m * n)_ | _O(m * n)_ | Easy | | BFS or DP |
 
 ## Depth-First Search
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -322,6 +323,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |376|[Binary Tree Path Sum](http://lintcode.com/en/problem/binary-tree-path-sum/)| [C++](./C++/binary-tree-path-sum.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
 |433|[Number of Islands](http://lintcode.com/en/problem/number-of-islands/)| [C++](./C++/number-of-islands.cpp)| _O(m * n)_ | _O(m * n)_ | Easy | LeetCode | DFS |
 |480| [Binary Tree Paths](http://lintcode.com/en/problem/binary-tree-paths/) | [C++](./C++/binary-tree-paths.cpp) | _O(n * h)_ | _O(h)_ | Easy         | LeetCode ||
+|795|[4-Way Unique Pathsp](http://lintcode.com/en/problem/4-way-unique-paths)| [Python](./Python/4-way-unique-paths.py)| _O(m*n)_ | _O(m*n)_ | Medium | | |
 
 ## Backtracking
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -396,6 +398,21 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |516|[Paint House II](http://lintcode.com/en/problem/paint-house-ii/)| [C++](./C++/paint-house-ii.cpp)| _O(n * k)_ | _O(k)_ | Hard | LeetCode | |
 |534|[House Robber II](http://lintcode.com/en/problem/house-robber-ii/)| [C++](./C++/house-robber-ii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
 |564|[Backpack VI](http://lintcode.com/en/problem/backpack-vi/)| [C++](./C++/backpack-vi.cpp)| _O(n * t)_ | _O(t)_ | Medium | | |
+|630|[Knight Shortest Path II](http://lintcode.com/en/problem/knight-shortest-path-ii/)| [Python](./Python/knight-shortest-path-ii.py)| _O(m * n)_ | _O(m * n)_ | Easy | | |
+|631|[Maximal Square II](http://lintcode.com/en/problem/maximal-square-ii/)| [Python](./Python/maximal-square-ii.py)| _O(m * n)_ | _O(n)_ | Easy | | Amazon |
+|741|[Calculate Maximum Value II](http://lintcode.com/en/problem/calculate-maximum-value-ii)| [Python](./Python/calculate-maximum-value-ii.py)| _O(n^2)_ | _O(n^2)_ | Easy | | Interval DP |
+|843|[Digital Flip](http://lintcode.com/en/problem/digital-flip)| [Python](./Python/digital-flip.py)| _O(n)_ | _O(1)_ | Medium | Microsoft | |
+|953|[The Biggest Score On The Tree](http://lintcode.com/en/problem/the-biggest-score-on-the-tree)| [Python](./Python/the-biggest-score-on-the-tree.py)| _O(n)_ | _O(h)_ | Medium | Airbnb | Tree DP |
+|1224|[Count The Repetitions](http://lintcode.com/en/problem/count-the-repetitions)| [Python](./Python/count-the-repetitions.py)| _O(n1 * len(s1))_ | _O(n1)_ | Super Hard | | |
+|1383|[Subtree Count](http://lintcode.com/en/problem/subtree-count)| [Python](./Python/subtree-count.py)| _O(n)_ | _O(n)_ | Medium | | |
+|1384|[Segment Stones Merge](http://lintcode.com/en/problem/segment-stones-merge)| [Python](./Python/segment-stones-merge.py) [C++](./C++/segment-stones-merge.cpp) [Java](./Java/segment-stones-merge.java)| _O(n^3)_ | _O(n^3)_ | Super Hard | | 3d DP |
+|1395|[The Barycentre Of The Trees](http://lintcode.com/en/problem/the-barycentre-of-the-trees)| [Python](./Python/the-barycentre-of-the-trees.py)| _O(n)_ | _O(n)_ | Hard | Facebook | Tree DP |
+|1400|[Fermat Point Of Graphs](http://lintcode.com/en/problem/fermat-point-of-graphs)| [Python](./Python/fermat-point-of-graphs.py)| _O(n)_ | _O(n)_ | Super Hard | Google | Tree DP |
+|1414|[Eat The Beans](http://lintcode.com/en/problem/eat-the-beans)| [Python](./Python/eat-the-beans.py) [C++](./C++/eat-the-beans.cpp)| _O(w*r)_ | _O(w*r)_ | Medium | Twitter | |
+|1444|[Dyeing Problem](http://lintcode.com/en/problem/dyeing-problem)| [Python](./Python/dyeing-problem.py)| _O(n)_ | _O(1)_ | Medium | Alibaba | |
+|1447|[Calculation the Sum of Path](http://lintcode.com/en/problem/calculation-the-sum-of-path)| [Python](./Python/calculation-the-sum-of-path.py) [C++](./C++/calculation-the-sum-of-path.cpp) [Java](./Java/calculation-the-sum-of-path.java)| _O(l * w)_ | _O(l * w)_ | Medium | Google | |
+|1448|[Card Game](http://lintcode.com/en/problem/card-game)| [Python](./Python/card-game.py) [C++](./C++/card-game.cpp) [Java](./Java/card-game.java)| _O(n * totalProfit * totalCost)_ | _O(totalProfit * totalCost)_ | Medium | Google | |
+
 
 ## Greedy
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -420,7 +437,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |208|[Assignment Operator Overloading (C++ Only)](http://lintcode.com/en/problem/assignment-operator-overloading-c-only/)| [C++](./C++/assignment-operator-overloading-c-only.cpp)| _O(n)_ | _O(1)_ | Medium | | |
 |496|[Toy Factory](http://www.lintcode.com/en/problem/toy-factory/)| [C++](./C++/toy-factory.cpp) [Python](./Python/toy-factory.py) | _O(1)_ | _O(1)_ | Easy | | |
 |497|[Shape Factory](http://www.lintcode.com/en/problem/shape-factory/)| [C++](./C++/shape-factory.cpp) [Python](./Python/shape-factory.py) | _O(1)_ | _O(1)_ | Easy | | |
-|498|[Parking Lot](http://www.lintcode.com/en/problem/parking-lot/)| [C++](./C++/parking-lot.cpp) [Python](./Python/parking-lot.py) [Java](./Java/parking-lot.java | _O(n * m * k)_ | _O(n * m * k)_ | Hard | CTCI | OO Design |
+|498|[Parking Lot](http://www.lintcode.com/en/problem/parking-lot/)| [C++](./C++/parking-lot.cpp) [Python](./Python/parking-lot.py) [Java](./Java/parking-lot.java) | _O(n * m * k)_ | _O(n * m * k)_ | Hard | CTCI | OO Design |
 |708|[Elevator System OO Design](https://www.lintcode.com/problem/elevator-system-oo-design/)| [Python](./Python/elevator-system-oo-design.py) [C++](./C++/elevator-system-oo-design.cpp) [Java](./Java/elevator-system-oo-design.java) | | | Hard | | OO Design |
 |709|[Restaurant OO Design](https://www.lintcode.com/problem/restaurant-oo-design/)| [C++](./C++/restaurant-oo-design.cpp) [Java](./Java/restaurant-oo-design.java) | | | Hard | | OO Design |
 |710|[Hotel OO Design](https://www.lintcode.com/problem/hotel-oo-design/)| [C++](./C++/hotel-oo-design.cpp) [Java](./Java/hotel-oo-design.java) | | | Hard | | OO Design |
