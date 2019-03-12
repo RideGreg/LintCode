@@ -5,6 +5,9 @@
 
 # the number of bicycles is equal to the number of people
 
+# Idea: http://www.cnblogs.com/wenruo/p/5264235.html
+# https://blog.csdn.net/dark_scope/article/details/8880547
+
 class Solution:
     """
     @param matrix: the matrix

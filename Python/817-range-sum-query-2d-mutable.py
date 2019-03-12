@@ -5,7 +5,24 @@
 # 2.You may assume the number of calls to update and sumRegion function is distributed evenly.
 # 3.row1 <= row2 and col1 <= col2.
 
+# a 2D tree
 # Time: ctor O(MNlogMlogN), update O(logMlogN), sumRegion O(logMlogN)
+# original mx
+# 3 1 1 4
+# 5 6 3 2
+# 1 2 1 1
+# 4 1 1 1
+#
+# tree: node stores range: odd node only stores itself, even node stores a wide range
+# 8: 1->8, 7: 7, 6: 5->6, 5: 5, 4: 1->4, 3: 3, 2: 1->2, 1: 1
+# after set the first elem mx[0][0]
+# 0 0 0 0 0
+# 0 3 3 0 3
+# 0 3 3 0 3
+# 0 0 0 0 0
+# 0 3 3 0 3
+# In query: add nodes with last-set-bit gradually removed: 6 = node 6 + node 4; 5 = node 5 + node 4
+
 class NumMatrix(object):
     def __init__(self, matrix):
         m, n = len(matrix), len(matrix[0])
@@ -43,6 +60,7 @@ class NumMatrix(object):
         return getSum(row2, col2) - getSum(row1-1, col2) - getSum(row2, col1-1) + getSum(row1-1, col1-1)
 
 
+# Treat each row as a segment tree
 # TLE Time: ctor O(MN), update O(logN), sumRegion O(MlogN)
 class NumMatrix_segmentTree(object):
     def __init__(self, matrix):
@@ -57,7 +75,7 @@ class NumMatrix_segmentTree(object):
         c = col + self.n
         if self.tree[row][c] != val:
             self.tree[row][c] = val
-            while c > 1:
+            while c > 0:
                 sibling = c - 1 if c % 2 else c + 1
                 self.tree[row][c / 2] = self.tree[row][c] + self.tree[row][sibling]
                 c /= 2
@@ -77,7 +95,7 @@ class NumMatrix_segmentTree(object):
                 c2 /= 2
         return s
 
-obj = NumMatrix([[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]])
-print(obj.sumRegion(2, 1, 4, 3)) # 8 = 2+0+1 + 1+0+1 + 0+3+0
+obj = NumMatrix([[3,1,1,4,2],[5,6,3,2,1],[1,2,1,1,5],[4,1,1,1,7],[1,1,3,1,5]])
+print(obj.sumRegion(2, 1, 4, 3)) # 12 = 2+1+1 + 1+1+1 + 1+3+1
 obj.update(3, 2, 2)
-print(obj.sumRegion(2, 1, 4, 3)) # 10 = 2+0+1 + 1+2+1 + 0+3+0
+print(obj.sumRegion(2, 1, 4, 3)) # 13 = 2+1+1 + 1+2+1 + 1+3+1

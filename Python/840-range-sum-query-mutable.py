@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 # Time: init: O(n), update: O(logn), query: O(logn)
 # Space: O(n)
 
@@ -35,7 +37,9 @@ class NumArray(object): # Bit Indexed Tree
 
         return sum(j) - sum(i-1)
 
-
+# 存储加倍，前半累加，每点存一区间 （build）
+# 延展下标，找到兄弟，更新父节点 （update）
+# 延展下标，分拆区间，前偶后奇向上走 （query)
 class NumArray_segmentTree(object):
     def __init__(self, nums):
         self.n = len(nums)
