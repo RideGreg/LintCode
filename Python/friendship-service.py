@@ -1,4 +1,6 @@
 '''
+System Design 1: News Feed System
+
 Support follow & unfollow, getFollowers, getFollowings.
 follow(1, 3)
 getFollowers(1) // return [3]
@@ -12,6 +14,8 @@ NOTE: 1. following relationship uses set data structure!!
       2. set.discard is better than set.remove
 '''
 
+import collections
+
 class FriendshipService:
     
     def __init__(self):
@@ -23,14 +27,14 @@ class FriendshipService:
     @return: all followers and sort by user_id
     """
     def getFollowers(self, user_id):
-        return sorted(list(self.follower[user_id]))
+        return sorted(self.follower[user_id]) # sorted takes an iterable and ouputs a list
 
     """
     @param: user_id: An integer
     @return: all followings and sort by user_id
     """
     def getFollowings(self, user_id):
-        return sorted(list(self.following[user_id]))
+        return sorted(self.following[user_id])
 
     """
     @param: from_user_id: An integer

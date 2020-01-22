@@ -83,15 +83,17 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |382|[Triangle Count](http://lintcode.com/en/problem/triangle-count/)| [C++](./C++/triangle-count.cpp)| _O(n^2)_ | _O(1)_ | Medium | | Two Pointers |
 |383|[Container With Most Water](http://lintcode.com/en/problem/container-with-most-water/)| [C++](./C++/container-with-most-water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | Two Pointers |
 |388|[Permutation Sequence](http://lintcode.com/en/problem/permutation-sequence/)| [C++](./C++/permutation-sequence.cpp)| _O(n^2)_ | _O(n)_ | Medium | LeetCode | |
-|389|[Valid Sudoku](http://lintcode.com/en/problem/valid-sudoku/)| [C++](./C++/valid-sudoku.cpp)| _O(9^2)_ | _O(9)_ | Easy | LeetCode | |
+|389|[Valid Sudoku](http://lintcode.com/en/problem/valid-sudoku/)| [C++](./C++/valid-sudoku.cpp)| _O(9^2)_ | _O(9)_ | Easy | Uber,Snapchat,Apple,LeetCode 036 | |
 |404|[Subarray Sum II](http://lintcode.com/en/problem/subarray-sum-ii/)| [C++](./C++/subarray-sum-ii.cpp)| _O(nlogn)_ | _O(n)_ | Hard | | Two Pointers, Binary Search |
 |405|[Submatrix Sum](http://lintcode.com/en/problem/submatrix-sum/)| [C++](./C++/submatrix-sum.cpp)| _O(m * n^2)_ | _O(m)_ | Hard | | Hash |
 |406|[Minimum Size Subarray Sum](http://lintcode.com/en/problem/minimum-size-subarray-sum/)| [C++](./C++/minimum-size-subarray-sum.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Binary Search |
 |539|[Move Zeroes](http://lintcode.com/en/problem/move-zeroes/)| [C++](./C++/move-zeroes.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | Two Pointers |
-|817|[Range Sum Query 2D - Mutable](http://lintcode.com/en/problem/range-sum-query-2d-mutable/)| [Python](./Python/817-range-sum-query-2d-mutable.py)| _O(logMlogN) | _O(M*N)_ | Hard | Google Ladder 18/7 | Bit Indexed Tree, TLE Segment Tree |
-|840|[Range Sum Query - Mutable](http://lintcode.com/en/problem/range-sum-query-mutable/)| [Python](./Python/840-range-sum-query-mutable.py)| _O(logn) | _O(n)_ | Medium | | Segment Tree |
-|943|[Range Sum Query - Immutable](http://lintcode.com/en/problem/range-sum-query-immutable/)| [Python](./Python/943-range-sum-query-immutable.py)| _O(1) | _O(n)_ | Easy | | prefixSum |
-|1539|[Flipped The Pixel](http://lintcode.com/en/problem/flipped-the-pixel/)| [Python](./Python/flipped-the-pixel.py)| _O(m*n)_ | _O(1)_ | Easy | Google Ladder 18/6 | |
+|601|[Flatten 2D Vector](https://www.lintcode.com/problem/flatten-2d-vector)|| _O(1)_ | _O(1)_ | Medium| Airbnb,Twitter,Google,LeetCode 251||
+|817|[Range Sum Query 2D - Mutable](http://lintcode.com/en/problem/range-sum-query-2d-mutable/)| [Python](./Python/817-range-sum-query-2d-mutable.py)| _O(logMlogN)_ | _O(M*N)_ | Hard | Google Ladder 18/7 | Bit Indexed Tree, TLE Segment Tree |
+|840|[Range Sum Query - Mutable](http://lintcode.com/en/problem/range-sum-query-mutable/)| [Python](./Python/840-range-sum-query-mutable.py)| _O(logn)_ | _O(n)_ | Medium | | Segment Tree |
+|943|[Range Sum Query - Immutable](http://lintcode.com/en/problem/range-sum-query-immutable/)| [Python](./Python/943-range-sum-query-immutable.py)| _O(1)_ | _O(n)_ | Easy | | prefixSum |
+|1391|[Making A Large Island](https://www.lintcode.com/problem/making-a-large-island)||_O(n^2)_|_O(n^2)_|Hard|Uber,LeetCode 827| 2D Union Find|
+|1539|[Flipped The Pixel](http://lintcode.com/en/problem/flipped-the-pixel/)| [Python](./Python/1539-flipped-the-pixel.py)| _O(m*n)_ | _O(1)_ | Easy | Google Ladder 18/6 | |
 |1555|[Flower Problem](http://lintcode.com/en/problem/flower-problem/)| [Python](./Python/1555-flower-problem.py)| _O(n)_ | _O(n)_ | Hard | Google Ladder 18/6 | Union Find |
 |1628|[Driving Problem](http://lintcode.com/en/problem/driving-problem/)| [Python](./Python/1628-driving-problem.py)| _O(n*n)_ | _O(n)_ | Hard | Google Ladder 18/8 | 2D Union Find |
 |1631|[Interesting Subarray](http://lintcode.com/en/problem/interesting-subarray/)| [Python](./Python/1631-interesting-subarray.py)| _O(n)_ | _O(n)_ | Medium | Google Ladder 18/8 | Two Pointers |
@@ -106,7 +108,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |13|[strStr](http://lintcode.com/en/problem/strstr/)|[C++](./C++/strstr.cpp)| _O(n + k)_ | _O(k)_ | Easy | LeetCode | `KMP Algorithm` |
 |53|[Reverse Words in a String](http://lintcode.com/en/problem/reverse-words-in-a-string/)|[C++](./C++/reverse-words-in-a-string.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|54|[String to Integer(atoi)](http://lintcode.com/en/problem/string-to-integeratoi/)|[C++](./C++/string-to-integeratoi.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
+|54|[String to Integer(atoi)](http://lintcode.com/en/problem/string-to-integeratoi/)|[C++](./C++/string-to-integeratoi.cpp)| _O(n)_ | _O(1)_ | Hard | Uber,LeetCode 8| |
 |55|[Compare Strings](http://lintcode.com/en/problem/compare-strings/)|[C++](./C++/compare-strings.cpp)| _O(n)_ | _O(c)_ | Easy | | |
 |78|[Longest Common Prefix](http://lintcode.com/en/problem/longest-common-prefix/)|[C++](./C++/longest-common-prefix.cpp)| _O(n)_ | _O(1)_ | Medium | | |
 |157|[Unique Characters](http://lintcode.com/en/problem/unique-characters/)|[C++](./C++/unique-characters.cpp)| _O(n)_ | _O(1)_ | Easy | CTCI | |
@@ -115,12 +117,16 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |212|[Space Replacement](http://lintcode.com/en/problem/space-replacement/)|[C++](./C++/space-replacement.cpp)| _O(n)_ | _O(1)_ | Easy | | |
 |407|[Plus One](http://lintcode.com/en/problem/plus-one.cpp/)|[C++](./C++/plus-one.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
 |408|[Add Binary](http://lintcode.com/en/problem/add-binary/)|[C++](./C++/add-binary.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
-|415|[Valid Palindrome](http://lintcode.com/en/problem/valid-palindrome/)|[C++](./C++/valid-palindrome.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|415|[Valid Palindrome](http://lintcode.com/en/problem/valid-palindrome/)|[C++](./C++/valid-palindrome.cpp)| _O(n)_ | _O(1)_ | Easy | Uber, LeetCode 125| |
 |417|[Valid Number](http://lintcode.com/en/problem/valid-number/)|[C++](./C++/valid-number.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | Automata |
 |420|[Count and Say](http://lintcode.com/en/problem/count-and-say/)|[C++](./C++/count-and-say.cpp)| _O(n * 2^n)_ | _O(2^n)_ | Easy | LeetCode | |
 |422|[Length of Last Word](http://lintcode.com/en/problem/length-of-last-word/)|[C++](./C++/length-of-last-word.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
 |524|[Left Pad](http://lintcode.com/en/problem/left-pad/)|[C++](./C++/left-pad.cpp)| _O(p + n)_ | _O(1)_ | Easy | LeetCode | |
 |633|[Find the Duplicate Number](http://lintcode.com/en/problem/find-the-duplicate-number/)|[Python](./Python/633-find-the-duplicate-number.py)| _O(n)_ | _O(1)_ | Hard | Google Ladder 18/7 | fast-slow-pointers |
+|640|[One Edit Distance](https://www.lintcode.com/problem/one-edit-distance)||||Medium|Uber, LeetCode 161||
+|927|[Reverse Words in a String ii](https://www.lintcode.com/problem/reverse-words-in-a-string-ii)||||Medium|Uber, LeetCode 186||
+
+
 |1086|[Repeated String Match](http://lintcode.com/en/problem/repeated-string-match/)|[Python](./Python/1086-repeated-string-match.py)| _O(n*(m+n))_ | _O(m+n)_ | Easy | Google Ladder 18/6, LeetCode | |
 |1540|[Can Convert](http://lintcode.com/en/problem/can-convert/)|[Python](./Python/1540-can-convert.py)| _O(min(s, t))_ | _O(1)_ | Easy | Google Ladder 18/6 | Two Pointers |
 |1542|[Nexttime Norepeat](http://lintcode.com/en/problem/nexttime-norepeat/)|[Python](./Python/1542-nexttime-norepeat.py)| _O(1))_ | _O(1)_ | Easy | Google Ladder 18/6 | |
@@ -138,7 +144,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |16|[Merge Two Sorted Lists](http://lintcode.com/en/problem/merge-two-sorted-lists/)|[C++](./C++/merge-two-sorted-lists.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
-|35|[Reverse Linked List](http://lintcode.com/en/problem/reverse-linked-list/)|[C++](./C++/reverse-linked-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | |
+|35|[Reverse Linked List](http://lintcode.com/en/problem/reverse-linked-list/)|[C++](./C++/reverse-linked-list.cpp)| _O(n)_ | _O(1)_ | Easy | Uber,LeetCode 206, EPI | |
 |36|[Reverse Linked List II](http://lintcode.com/en/problem/reverse-linked-list-ii/)|[C++](./C++/reverse-linked-list-ii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
 |96|[Partition List](http://lintcode.com/en/problem/partition-list/)|[C++](./C++/partition-list.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
 |98|[Sort List](http://lintcode.com/en/problem/sort-list/)|[C++](./C++/sort-list.cpp)| _O(nlogn)_ | _O(logn)_ | Medium | LeetCode, EPI | |
@@ -159,14 +165,14 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |372|[Delete Node in the Middle of Singly Linked List](http://lintcode.com/en/problem/delete-node-in-the-middle-of-singly-linked-list/)|[C++](./C++/delete-node-in-the-middle-of-singly-linked-list.cpp)| _O(1)_ | _O(1)_ | Easy | CTCI | |
 |380|[Intersection of Two Linked Lists](http://lintcode.com/en/problem/intersection-of-two-linked-lists/)|[C++](./C++/intersection-of-two-linked-lists.cpp)| _O(m + n)_ | _O(1)_ | Easy | LeetCode | |
 |450|[Reverse Nodes in k-Group](http://lintcode.com/en/problem/reverse-nodes-in-k-group/)|[C++](./C++/reverse-nodes-in-k-group.cpp)| _O(n)_ | _O(1)_ | Hard | LeetCode | |
-|451|[Swap Nodes in Pairs](http://lintcode.com/en/problem/swap-nodes-in-pairs/)|[C++](./C++/swap-nodes-in-pairs.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode | |
+|451|[Swap Nodes in Pairs](http://lintcode.com/en/problem/swap-nodes-in-pairs/)|[C++](./C++/swap-nodes-in-pairs.cpp) [Python](./Python/451-swap-nodes-in-pairs.py)| _O(n)_ | _O(1)_ | Medium | Uber,Microsoft,Bloomberg,LeetCode 024| |
 |452|[Remove Linked List Elements](http://lintcode.com/en/problem/remove-linked-list-elements/)|[C++](./C++/remove-linked-list-elements.cpp)| _O(n)_ | _O(1)_ | Naive | LeetCode | |
 |511|[Swap Two Nodes in Linked List](http://lintcode.com/en/problem/swap-two-nodes-in-linked-list/)|[C++](./C++/swap-two-nodes-in-linked-list.cpp)| _O(n)_ | _O(1)_ | Medium | | |
 
 ## Tree
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|7|[Binary Tree Serialization](http://lintcode.com/en/problem/binary-tree-serialization/)| [C++](./C++/binary-tree-serialization.cpp)| _O(n)_ | _O(h)_ | Medium | | |
+|7|[Binary Tree Serialization](http://lintcode.com/en/problem/binary-tree-serialization/)| [C++](./C++/binary-tree-serialization.cpp)| _O(n)_ | _O(h)_ | Medium | Uber,LeetCode 297| |
 |85|[Insert Node in a Binary Search Tree](http://lintcode.com/en/problem/insert-node-in-a-binary-search-tree/)| [C++](./C++/insert-node-in-a-binary-search-tree.cpp)| _O(h)_ | _O(1)_ | Easy | | |
 |88|[Lowest Common Ancestor](http://lintcode.com/en/problem/lowest-common-ancestor/)| [C++](./C++/lowest-common-ancestor.cpp)| _O(n)_ | _O(h)_ | Medium | EPI | |
 |175|[Invert Binary Tree](http://lintcode.com/en/problem/invert-binary-tree/)| [C++](./C++/invert-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
@@ -178,7 +184,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Stack
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|12|[Min Stack](http://lintcode.com/en/problem/min-stack/)| [C++](./C++/min-stack.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
+|12|[Min Stack](http://lintcode.com/en/problem/min-stack/)| [C++](./C++/min-stack.cpp)| _O(n)_ | _O(1)_ | Medium | Uber,LeetCode 155, EPI | |
 |40|[Implement Queue by Two Stacks](http://lintcode.com/en/problem/implement-queue-by-two-stacks/)| [C++](./C++/implement-queue-by-two-stacks.cpp)| _O(1), amortized_ | _O(n)_ | Medium | EPI | |
 |66|[Binary Tree Preorder Traversal](http://lintcode.com/en/problem/binary-tree-preorder-traversal/)| [C++](./C++/binary-tree-preorder-traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
 |67|[Binary Tree Inorder Traversal](http://lintcode.com/en/problem/binary-tree-inorder-traversal/)| [C++](./C++/binary-tree-inorder-traversal.cpp)| _O(n)_ | _O(1)_ | Easy | LeetCode, EPI | `Morris Traversal` |
@@ -190,11 +196,12 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |369|[Convert Expression to Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-notation/)| [C++](./C++/convert-expression-to-polish-notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
 |370|[Convert Expression to Reverse Polish Notation](http://lintcode.com/en/problem/convert-expression-to-reverse-polish-notation/)| [C++](./C++/convert-expression-to-reverse-polish-notation.cpp)| _O(n)_ | _O(n)_ | Hard | | |
 |421|[Simplify Path](http://lintcode.com/en/problem/simplify-path/)| [C++](./C++/simplify-path.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | |
-|423|[Valid Parentheses](http://lintcode.com/en/problem/valid-parentheses.cpp/)| [C++](./C++/valid-parentheses.cpp.cpp)| _O(n)_ | _O(n)_ | Easy | LeetCode | |
+|423|[Valid Parentheses](http://lintcode.com/en/problem/valid-parentheses/)| [C++](./C++/valid-parentheses.cpp) [Python](./Python/valid-parentheses.py) | _O(n)_ | _O(n)_ | Easy | Uber,Airbnb,Google,Facebook,Amazon,Twitter,LeetCode 020| |
 |424|[Evaluate Reverse Polish Notation](http://lintcode.com/en/problem/evaluate-reverse-polish-notation/)| [C++](./C++/evaluate-reverse-polish-notation.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | |
 |473|[Add and Search Word](http://lintcode.com/en/problem/add-and-search-word/)| [C++](./C++/add-and-search-word.cpp)| _O(min(n, h))_ | _O(min(n, h)_ | Medium | LeetCode | Trie |
 |510|[Maximal Rectangle](http://lintcode.com/en/problem/maximal-rectangle/)| [C++](./C++/maximal-rectangle.cpp)| _O(m * n)_ | _O(n)_ | Hard | LeetCode | Ascending Stack |
 |528|[Flatten Nested List Iterator](http://lintcode.com/en/problem/flatten-nested-list-iterator/)| [C++](./C++/flatten-nested-list-iterator.cpp)| _O(n)_ | _O(h)_ | Medium | LeetCode | |
+|1001|[Asteroid Collision](https://www.lintcode.com/problem/asteroid-collision)|| _O(n)_ | _O(n)_ | Medium | Uber, LeetCode 735 ||
 
 ## Queue
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -208,6 +215,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |81|[Data Stream Median](http://lintcode.com/en/problem/data-stream-median/)| [C++](./C++/data-stream-median.cpp)| _O(nlogn)_ | _O(n)_ | Hard | EPI | BST, Heap |
 |130|[Heapify](http://lintcode.com/en/problem/heapify/)| [C++](./C++/heapify.cpp)| _O(n)_ | _O(1)_ | Medium | | |
 |364|[Trapping Rain Water II](http://lintcode.com/en/problem/trapping-rain-water-ii/)| [C++](./C++/trapping-rain-water-ii.cpp)| _O(m * n * (logm + logn))_ | _O(m * n)_ | Hard | | BFS, Heap, Tricky |
+|471|[Top K Frequent Words](https://www.lintcode.com/problem/top-k-frequent-words)||||Medium|Uber, LeetCode 692|Heap, Bucket Sort|
 |518|[Super Ugly Number](http://lintcode.com/en/problem/super-ugly-number/)| [C++](./C++/super-ugly-number.cpp)| _O(n * k)_ | _O(n + k)_ | Medium | LeetCode | BST, Heap |
 |1571|[Top K GPA](http://lintcode.com/en/problem/top-k-gpa/)| [Python](./Python/top-k-gpa.py)| _O(n * logk)_ | _O(k)_ | Medium | Google Ladder 18/7 | Heap |
 
@@ -215,7 +223,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Hash Tables
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|56|[2 Sum](http://lintcode.com/en/problem/2-sum/)| [C++](./C++/2-sum.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | |
+|56|[2 Sum](http://lintcode.com/en/problem/2-sum/)| [C++](./C++/2-sum.cpp)| _O(n)_ | _O(n)_ | Medium | Uber,LeetCode 001| |
 |124|[Longest Consecutive Sequence](http://lintcode.com/en/problem/longest-consecutive-sequence/)| [C++](./C++/longest-consecutive-sequence.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |128|[Hash Function](http://lintcode.com/en/problem/hash-function/)| [C++](./C++/hash-function.cpp)| _O(n)_ | _O(1)_ | Easy | | |
 |129|[Rehashing](http://lintcode.com/en/problem/rehashing/)| [C++](./C++/rehashing.cpp)| _O(n)_ | _O(n)_ | Medium | | |
@@ -226,16 +234,18 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |386|[Longest Substring with At Most K Distinct Characters](http://lintcode.com/en/problem/longest-substring-with-at-most-k-distinct-characters/)| [C++](./C++/longest-substring-with-at-most-k-distinct-characters.cpp)| _O(n)_ | _O(n)_ | Medium | | |
 |432|[Find the Weak Connected Component in the Directed Graph](http://lintcode.com/en/problem/find-the-weak-connected-component-in-the-directed-graph/)| [C++](./C++/find-the-weak-connected-component-in-the-directed-graph.cpp)| _O(nlogn)_ | _O(n)_ | Medium | | Union Find |
 |434|[Number of Islands II](http://lintcode.com/en/problem/number-of-islands-ii/)| [C++](./C++/number-of-islands-ii.cpp)| _O(k)_ | _O(k)_ | Hard | | Union Find |
-|488| [Happy Number](http://lintcode.com/en/problem/happy-number/)      | [C++](./C++/happy-number.cpp)   | _O(k)_  | _O(k)_          | Easy          | LeetCode |
-547| [Intersection of Two Arrays](http://lintcode.com/en/problem/intersection-of-two-arrays/) | [C++](./C++/intersection-of-two-arrays.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
-548| [Intersection of Two Arrays II](http://lintcode.com/en/problem/intersection-of-two-arrays-ii/) | [C++](./C++/intersection-of-two-arrays-ii.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
-828| [Word Pattern](https://lintcode.com/problem/word-pattern/description) | [Python](./Python/word-pattern.py) | _O(n)_ | _O(n)_ | Easy | |
-1443| [longest-ab-substring](https://lintcode.com/problem/longest-ab-substring/description) | [Python](.Python/longest-ab-substring.py) | _O(n)_ | _O(n)_ | Medium | | prefixSum, Hash Table
+|488| [Happy Number](http://lintcode.com/en/problem/happy-number/)      | [C++](./C++/happy-number.cpp) [Python](./Python/488-happy-number.py) | _O(k)_  | _O(k)_ | Easy | Uber, Airbnb, Twitter,LeetCode 202|
+|547| [Intersection of Two Arrays](http://lintcode.com/en/problem/intersection-of-two-arrays/) | [C++](./C++/intersection-of-two-arrays.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
+|548| [Intersection of Two Arrays II](http://lintcode.com/en/problem/intersection-of-two-arrays-ii/) | [C++](./C++/intersection-of-two-arrays-ii.cpp) | _O(m + n)_ | _O(min(m, n))_ | Easy         | EPI, LeetCode | Two Pointers, Binary Search
+|828| [Word Pattern](https://lintcode.com/problem/word-pattern/description) | [Python](./Python/828-word-pattern.py) | _O(n)_ | _O(c)_, c is number of unique patterns | Easy | Uber, Dropbox Leetcode 290|
+|829| [Word Pattern II](https://lintcode.com/problem/word-pattern-ii/description) | | _O(n * C(n-1, c-1))_ | _O(n+c)_ | Hard | Uber, Dropbox Leetcode 291,10,44|
+|1443| [longest-ab-substring](https://lintcode.com/problem/longest-ab-substring/description) | [Python](.Python/longest-ab-substring.py) | _O(n)_ | _O(n)_ | Medium | | prefixSum, Hash Table
 
 ## Data Structure
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |134|[LRU Cache](http://lintcode.com/en/problem/lru-cache/)| [C++](./C++/lru-cache.cpp)| _O(1)_ | _O(k)_ | Hard | LeetCode, EPI | List, Hash |
+|1245|[All O`one Data Structure](https://www.lintcode.com/problem/all-oone-data-structure)|| _O(1)_ | _O(k)_ | Hard | Uber, LeetCode 432| Double Linked List, Hash |
 
 ## Math
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -243,6 +253,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |2|[Trailing Zeros](http://lintcode.com/en/problem/trailing-zeros/)| [C++](./C++/trailing-zeros.cpp)| _O(1)_ | _O(1)_ | Easy | LeetCode | |
 |3|[Digit Counts](http://lintcode.com/en/problem/digit-counts/)| [C++](./C++/digit-counts.cpp)| _O(1)_ | _O(1)_ | Medium | CTCI | |
 |114|[Unique Paths](http://lintcode.com/en/problem/unique-paths/)| [C++](./C++/unique-paths.cpp)| _O(min(m, n))_ | _O(1)_ | Easy | LeetCode, CTCI | DP, Math |
+|147|[Narcissistic Number](https://www.lintcode.com/problem/narcissistic-number)|[Python](./Python/narcissistic-number.py) | _O(10^n*n)_ | | Easy | CAT | Brute Force|
 |163|[Unique Binary Search Trees](http://lintcode.com/en/problem/unique-binary-search-trees/)| [C++](./C++/unique-binary-search-trees.cpp)| _O(n)_ | _O(1)_ | Medium | CTCI | DP, Math, `Catalan Number` |
 |180|[Binary Represention](http://lintcode.com/en/problem/delete-digits/)| [C++](./C++/binary-representation.cpp)| _O(1)_ | _O(1)_ | Hard | CTCI | |
 |197|[Permutation Index](http://lintcode.com/en/problem/permutation-index/)| [C++](./C++/permutation-index.cpp)| _O(n^2)_ | _O(1)_ | Easy | | |
@@ -256,7 +267,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |428| [Pow(x, n)](http://lintcode.com/en/problem/powx-n/)     | [C++](./C++/powx-n.cpp)     | _O(1)_       | _O(1)_       | Medium         | LeetCode ||
 |445|[Cosine Similarity](http://lintcode.com/en/problem/cosine-similarity/)| [C++](./C++/cosine-similarity.cpp) [Python](./Python/cosine-similarity.py) | _O(n)_ | _O(1)_ | Easy | | |
 |517|[Ugly Number](http://lintcode.com/en/problem/ugly-number/)| [C++](./C++/ugly-number.cpp)| _O(1)_ | _O(1)_ | Easy | CTCI, LeetCode |  |
-|1544|[Magic Square](http://lintcode.com/en/problem/magic-square/)| [Python](./Python/magic-square.py)| _O(n*n)_ | _O(n*n)_ | Hard | Google Ladder 18/6 |  |
+|1544|[Magic Square](http://lintcode.com/en/problem/magic-square/)| [Python](./Python/1544-magic-square.py)| _O(n*n)_ | _O(n*n)_ | Hard | Google Ladder 18/6 |  |
 
 
 ## Sort
@@ -288,7 +299,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |93|[Balanced Binary Tree](http://lintcode.com/en/problem/balanced-binary-tree/)| [C++](./C++/balanced-binary-tree.cpp) [Python](../../../LeetCode/blob/master/Python/balanced-binary-tree.py) | _O(n)_ | _O(h)_ | Easy | LeetCode | Tree DP |
 |94|[Binary Tree Maximum Path Sum](http://lintcode.com/en/problem/binary-tree-maximum-path-sum/)| [C++](./C++/binary-tree-maximum-path-sum.cpp) [Python](../../../LeetCode/blob/master/Python/binary-tree-maximum-path-sum.py) | _O(n)_ | _O(h)_ | Medium | LeetCode | Tree DP |
 |95|[Validate Binary Search Tree](http://lintcode.com/en/problem/validate-binary-search-tree/)| [C++](./C++/validate-binary-search-tree.cpp)| _O(n)_ | _O(h)_ | Medium | LeetCode | |
-|97|[Maximum Depth of Binary Tree](http://lintcode.com/en/problem/maximum-depth-of-binary-tree/)| [C++](./C++/maximum-depth-of-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
+|97|[Maximum Depth of Binary Tree](http://lintcode.com/en/problem/maximum-depth-of-binary-tree/)| [C++](./C++/maximum-depth-of-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | Uber,LinkedIn,LeetCode 104| |
 |131|[Building Outline](http://lintcode.com/en/problem/building-outline/)| [C++](./C++/building-outline.cpp) [Python](./Python/building-outline.py)| _O(nlogn)_ | _O(n)_ | Hard | EPI | Sort, BST |
 |140|[Fast Power](http://lintcode.com/en/problem/fast-power/)| [C++](./C++/fast-power.cpp)| _O(logn)_ | _O(1)_ | Medium | | |
 |155|[Minimum Depth of Binary Tree](http://lintcode.com/en/problem/minimum-depth-of-binary-tree/)| [C++](./C++/minimum-depth-of-binary-tree.cpp)| _O(n)_ | _O(h)_ | Easy | LeetCode | |
@@ -324,7 +335,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |61|[Search for a Range](http://lintcode.com/en/problem/search-for-a-range/)| [C++](./C++/search-for-a-range.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |62|[Search in Rotated Sorted Array](http://lintcode.com/en/problem/search-in-rotated-sorted-array/)| [C++](./C++/search-in-rotated-sorted-array.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |63|[Search in Rotated Sorted Array II](http://lintcode.com/en/problem/search-in-rotated-sorted-array-ii/)| [C++](./C++/search-in-rotated-sorted-array-ii.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
-|65|[Median of two Sorted Arrays](http://lintcode.com/en/problem/median-of-two-sorted-arrays/)| [C++](./C++/median-of-two-sorted-arrays.cpp)| _O(log(min(m, n)))_ | _O(1)_ | Hard | LeetCode, EPI | Tricky |
+|65|[Median of two Sorted Arrays](http://lintcode.com/en/problem/median-of-two-sorted-arrays/)| [C++](./C++/median-of-two-sorted-arrays.cpp)| _O(log(min(m, n)))_ | _O(1)_ | Hard | Uber,LeetCode 4, EPI | Tricky |
 |74|[First Bad Version](http://lintcode.com/en/problem/first-bad-version/)| [C++](./C++/first-bad-version.cpp)| _O(logn)_ | _O(1)_ | Medium | | |
 |75|[Find Peak Element](http://lintcode.com/en/problem/find-peak-element/)| [C++](./C++/find-peak-element.cpp) [Python](./Python/find-peak-element.py)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |76|[Longest Increasing Subsequence](http://lintcode.com/en/problem/longest-increasing-subsequence/)| [C++](./C++/longest-increasing-subsequence.cpp) [Python](./Python/76-longest-increasing-subsequence.py) | _O(nlogn)_ | _O(n)_ | Medium | CTCI, Leetcode | |
@@ -335,6 +346,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |390|[Find Peak Element II](http://lintcode.com/en/problem/find-peak-element-ii/)| [C++](./C++/find-peak-element-ii.cpp) [Java](./Java/find-peak-element-ii.java) [Python](./Python/find-peak-element-ii.py)| _O(m + n)_ | _O(1)_ | Hard | | |
 |437|[Copy Books](http://lintcode.com/en/problem/copy-books/)| [C++](./C++/copy-books.cpp) | _O(nlogp)_ | _O(1)_ | Hard | UVa 714 | |
 |458|[Last Position of Target](http://lintcode.com/en/problem/last-position-of-target/)| [Python](./Python/458-last-position-of-target.py) | _O(logn)_ | _O(1)_ | Easy | Google Ladder 18/7 | |
+|1077|[Falling Squares](https://www.lintcode.com/problem/falling-squares)|| _O(nlogn)_ | _O(n)_ | Hard| Uber, LeetCode 699| Segment Tree|
 |1564|[Interval Search](http://lintcode.com/en/problem/interval-search/)| [Python](./Python/1564-interval-search.py) | _O(logn)_ | _O(1)_ | Easy | Google Ladder 18/7 | |
 |1623|[Minimal Distance in the Array](http://lintcode.com/en/problem/minimal-distance-in-the-array/)| [Python](./Python/1623-minimal-distance-in-the-array.py) | _O(min(MlogN, NlogN))_ | _O(1)_ |  | Google Ladder 18/8 | |
 |1626|[Salary Adjustment](http://lintcode.com/en/problem/salary-adjustment/)| [Python](./Python/1626-salary-adjustment.py) | _O(log(target/n))_ | _O(1)_ | Easy | Google Ladder 18/8 | |
@@ -347,7 +359,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 ## Breadth-First Search
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
-|69|[Binary Tree Level Order Traversal](http://lintcode.com/en/problem/binary-tree-level-order-traversal/)| [C++](./C++/binary-tree-level-order-traversal.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | BFS |
+|69|[Binary Tree Level Order Traversal](http://lintcode.com/en/problem/binary-tree-level-order-traversal/)| [C++](./C++/binary-tree-level-order-traversal.cpp)| _O(n)_ | _O(n)_ | Medium | Uber, LeetCode 102| BFS |
 |70|[Binary Tree Level Order Traversal II](http://lintcode.com/en/problem/binary-tree-level-order-traversal-ii/)| [C++](./C++/binary-tree-level-order-traversal-ii.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | BFS |
 |71|[Binary Tree Zigzag Level Order Traversal](http://lintcode.com/en/problem/binary-tree-zigzag-level-order-traversal/)| [C++](./C++/binary-tree-zigzag-level-order-traversal.cpp)| _O(n)_ | _O(n)_ | Medium | LeetCode | BFS |
 |120|[Word Ladder](http://lintcode.com/en/problem/word-ladder/)| [C++](./C++/word-ladder.cpp)| _O(n * d)_ | _O(d)_ | Medium | LeetCode | BFS |
@@ -380,7 +392,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |15|[Permutations](http://lintcode.com/en/problem/permutations/)| [C++](./C++/permutations.cpp)| _O(n * n!)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |16|[Permutations II](http://lintcode.com/en/problem/permutations-ii/)| [C++](./C++/permutations-ii.cpp)| _O(n * n!)_ | _O(n)_ | Medium | LeetCode, EPI | |
-|17|[Subsets](http://lintcode.com/en/problem/subsets/)| [C++](./C++/subsets.cpp)| _O(n * 2^n)_ | _O(1)_ | Medium | LeetCode | |
+|17|[Subsets](http://lintcode.com/en/problem/subsets/)| [C++](./C++/subsets.cpp)| _O(n * 2^n)_ | _O(1)_ | Medium | Uber,LeetCode 78| |
 |18|[Subsets II](http://lintcode.com/en/problem/subsets-ii/)| [C++](./C++/subsets-ii.cpp)| _O(n * 2^n)_ | _O(1)_ | Medium | LeetCode | |
 |33|[N-Queens](http://lintcode.com/en/problem/n-queens/)| [C++](./C++/n-queens.cpp)| _O(n * n!)_ | _O(n)_ | Medium | LeetCode, EPI | |
 |34|[N-Queens II](http://lintcode.com/en/problem/n-queens-ii/)| [C++](./C++/n-queens-ii.cpp)| _O(n * n!)_ | _O(n)_ | Medium | LeetCode, EPI | |
@@ -392,7 +404,8 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |153|[Combination Sum II](http://lintcode.com/en/problem/combination-sum-ii/)| [C++](./C++/combination-sum-ii.cpp)| _O(k * C(n, k))_ | _O(k)_ | Medium | LeetCode | DFS |
 |425|[Letter Combinations of a Phone Number](http://lintcode.com/en/problem/letter-combinations-of-a-phone-number/) | [C++](./C++/letter-combinations-of-a-phone-number.cpp)| _O(n * 4^n)_ | _O(n)_ | Medium | LeetCode | |
 |426| [Restore IP Addresses](http://lintcode.com/en/problem/restore-ip-addresses/) | [C++](./C++/restore-ip-addresses.cpp) | _O(1)_ | _O(1)_ | Medium         | LeetCode ||[C++](./C++/letter-combinations-of-a-phone-number.cpp)| _O(n * 4^n)_ | _O(n)_ | Medium | LeetCode | |
-|427| [Generate Parentheses](http://lintcode.com/en/problem/generate-parentheses/)| [C++](./C++/generate-parentheses.cpp)| _O(4^n / n^(3/2))_ | _O(n)_   | Medium         | LeetCode ||
+|427| [Generate Parentheses](http://lintcode.com/en/problem/generate-parentheses/)| [C++](./C++/generate-parentheses.cpp)| _O(4^n / n^(1/2))_ | _O(n)_   | Medium         | Uber,LeetCode 022 ||
+|802|[Sudoku Solver](https://www.lintcode.com/problem/sudoku-solver)|| _O((9!)^9)_ | _O(1)_ | Hard|Uber, LeetCode 37||
 |1576| [Optimal Match](http://lintcode.com/en/problem/optimal-match)| [Python](./Python/optimal-match.py)| ?? | _O(n)_   | Hard | Google Ladder 18/9 | Hungary Algorithm |
 
 
@@ -406,7 +419,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |360|[Sliding Window Median](http://lintcode.com/en/problem/sliding-window-median/)| [C++](./C++/sliding-window-median.cpp)| _O(nlogw)_ | _O(w)_ | Hard | | BST, Tricky |
 |391|[Number of Airplanes in the Sky](http://lintcode.com/en/problem/number-of-airplanes-in-the-sky/)| [C++](./C++/number-of-airplanes-in-the-sky.cpp)| _O(nlogn)_ | _O(n)_ | Easy | | BST, Heap |
 |401|[Kth Smallest Number in Sorted Matrix](http://lintcode.com/en/problem/kth-smallest-number-in-sorted-matrix/)| [C++](./C++/kth-smallest-number-in-sorted-matrix.cpp)| _O(klog(min(m, n, k)))_ | _O(min(m, n, k))_ | Medium | | BST, Heap |
-|902|[Kth Smallest Element in a BST](http://lintcode.com/en/problem/kth-smallest-element-in-a-bst/)| [Python](./Python/902-kth-smallest-element-in-a-bst.py)| _O(k)_ | _O(k)_ | Easy | Google Ladder 18/7 | BST |
+|902|[Kth Smallest Element in a BST](http://lintcode.com/en/problem/kth-smallest-element-in-a-bst/)| [Python](./Python/902-kth-smallest-element-in-a-bst.py)| _O(k)_ | _O(k)_ | Easy | Google Ladder 18/7,Uber LeetCode 230 | BST |
 
 ## Dynamic Programming
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -431,7 +444,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |149|[Best Time to Buy and Sell Stock](http://lintcode.com/en/problem/best-time-to-buy-and-sell-stock/)| [C++](./C++/best-time-to-buy-and-sell-stock.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
 |150|[Best Time to Buy and Sell Stock II](http://lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/)| [C++](./C++/best-time-to-buy-and-sell-stock-ii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
 |151|[Best Time to Buy and Sell Stock III](http://lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/)| [C++](./C++/best-time-to-buy-and-sell-stock-iii.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | |
-|154|[Regular Expression Matching](http://lintcode.com/en/problem/regular-expression-matching/)| [C++](./C++/regular-expression-matching.cpp)| _O(m * n)_ | _O(m)_ | Hard | LeetCode | DP, Recursion |
+|154|[Regular Expression Matching](http://lintcode.com/en/problem/regular-expression-matching/)| [C++](./C++/regular-expression-matching.cpp)| _O(m * n)_ | _O(m)_ | Hard | Uber,Airbnb,LeetCode 10| DP, Recursion |
 |168|[Burst Balloons](http://lintcode.com/en/problem/burst-balloons/)| [C++](./C++/burst-balloons.cpp)| _O(n^3)_ | _O(n^2)_ | Medium | LeetCode | |
 |191|[Maximum Product Subarray](http://lintcode.com/en/problem/maximum-product-subarray/)| [C++](./C++/maximum-product-subarray.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
 |392|[House Robber](http://lintcode.com/en/problem/house-robber/)| [C++](./C++/house-robber.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
@@ -520,7 +533,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |520|[Consistent Hashing II](http://www.lintcode.com/en/problem/consistent-hashing-ii/)| [Python](./Python/consistent-hashing-ii.py) | | | Medium | | bisect, random |
 |538|[Memcache](http://www.lintcode.com/en/problem/memcache/)| [Python](./Python/memcache.py) | | | Easy | | Hash |
 |502|[mini-cassandra](http://www.lintcode.com/en/problem/mini-cassandra/)| [Python](./Python/mni-cassandraemcache.py) | | | Easy | | Hash |
-|134|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/)| [Python](./Python/lru-cache.py) | _O(1)_ | _O(k)_ | Hard | | OrderedDict, Doubly LinkedList + Hash |
+|134|[LRU Cache](http://www.lintcode.com/en/problem/lru-cache/)| [Python](./Python/lru-cache.py) | _O(1)_ | _O(k)_ | Hard | Uber,LeetCode 146| OrderedDict, Doubly LinkedList + Hash |
 |24|[LFU Cache](http://www.lintcode.com/en/problem/lfu-cache/)| [Python](./Python/lfu-cache.py) | _O(1)_ | _O(k)_ | Hard | | Doubly LinkedList + Hash |
 |Sys3|Tiny URL| | | | | | |
 |232|[Tiny Url](https://lintcode.com/problem/tiny-url/description)| [Python](./Python/tiny-url.py) | | | Easy| | Hash, Dict |

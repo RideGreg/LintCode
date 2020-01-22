@@ -9,22 +9,28 @@
 # 1.The array is only modifiable by the update function.
 # 2.You may assume the number of calls to update and sumRange function is distributed evenly.
 
-class NumArray(object): # Bit Indexed Tree
+
+# 两种树共同要点：1 in update，父节点如何定义 2 in query，区间如何分拆
+
+# Bit Indexed Tree 口诀：
+# 独立存树，空间加一 (build)
+# 递加最低设置位，更新父节点 (update)
+# 递减最低设置位，分拆区间 (query)
+class NumArray(object):
     def __init__(self, nums):
-        self.nums = [0] * len(nums)
+        self.nums = [0] * len(nums) // only usage is to tell if update is noop
         self.BITree = [0] * (len(nums) + 1)
         for i in range(len(nums)):
             self.update(i, nums[i])
 
     def update(self, i, val):
         delta = val - self.nums[i]
-        if delta == 0: return
-
-        self.nums[i] = val
-        i += 1
-        while i <= len(self.nums):
-            self.BITree[i] += delta
-            i += i & (-i)
+        if delta:
+            self.nums[i] += delta
+            i += 1
+            while i <= len(self.nums):
+                self.BITree[i] += delta
+                i += i & (-i)
 
     def sumRange(self, i, j):
         def sum(i):
@@ -37,7 +43,8 @@ class NumArray(object): # Bit Indexed Tree
 
         return sum(j) - sum(i-1)
 
-# 存储加倍，前半累加，每点存一区间 （build）
+# segment tree 口诀：
+# 存储加倍，前半累加，每点存一disjoint区间 （build）
 # 延展下标，找到兄弟，更新父节点 （update）
 # 延展下标，分拆区间，前偶后奇向上走 （query)
 class NumArray_segmentTree(object):

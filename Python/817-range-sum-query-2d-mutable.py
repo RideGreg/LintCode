@@ -5,7 +5,7 @@
 # 2.You may assume the number of calls to update and sumRegion function is distributed evenly.
 # 3.row1 <= row2 and col1 <= col2.
 
-# a 2D tree
+# a 2D bit indexed tree
 # Time: ctor O(MNlogMlogN), update O(logMlogN), sumRegion O(logMlogN)
 # original mx
 # 3 1 1 4
