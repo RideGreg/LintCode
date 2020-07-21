@@ -6,6 +6,65 @@ Here is the classification of all `289` problems.
 For more problems and solutions, you can see my [LeetCode](https://github.com/RideGreg/LeetCode) repository.
 I'll keep updating for full summary and better solutions. Stay tuned for updates.
 
+<table><thead>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#1">[1-50]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#51">[51-100]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#101">[101-150]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#151">[151-200]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#201">[201-250]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1-300.md#251">[251-300]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#301">[301-350]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#351">[351-400]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#401">[401-450]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#451">[451-500]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#501">[501-550]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/301-600.md#551">[551-600]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#601">[601-650]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#651">[651-700]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#701">[701-750]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#751">[751-800]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#801">[801-850]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/601-900.md#851">[851-900]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#901">[901-950]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#951">[951-1000]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#1001">[1001-1050]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#1051">[1051-1100]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#1101">[1101-1150]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/901-1200.md#1151">[1151-1200]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1201">[1201-1250]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1251">[1251-1300]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1301">[1301-1350]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1351">[1351-1400]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1401">[1401-1450]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1201-1500.md#1451">[1451-1500]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1501">[1501-1550]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1551">[1551-1600]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1601">[1601-1650]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1651">[1651-1700]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1701">[1701-1750]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1501-1800.md#1751">[1751-1800]</a></th>
+</tr>
+<tr>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#1801">[1801-1850]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#1851">[1851-1900]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#1901">[1901-1950]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#1951">[1951-2000]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#2001">[2001-2050]</a></th>
+	<th align="center"><a href="https://github.com/RideGreg/LintCode/tree/master/readme/1801-2100.md#2051">[2051-2100]</a></th>
+</tr>
+</thead></table>
+
 ## Algorithms
 * [Bit Manipulation](https://github.com/RideGreg/LintCode#bit-manipulation)
 * [Array](https://github.com/RideGreg/LintCode#array)
@@ -84,6 +143,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |383|[Container With Most Water](http://lintcode.com/en/problem/container-with-most-water/)| [C++](./C++/container-with-most-water.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode, EPI | Two Pointers |
 |388|[Permutation Sequence](http://lintcode.com/en/problem/permutation-sequence/)| [C++](./C++/permutation-sequence.cpp)| _O(n^2)_ | _O(n)_ | Medium | LeetCode | |
 |389|[Valid Sudoku](http://lintcode.com/en/problem/valid-sudoku/)| [C++](./C++/valid-sudoku.cpp)| _O(9^2)_ | _O(9)_ | Easy | Uber,Snapchat,Apple,LeetCode 036 | |
+|402|[Continuous Subarray Sum](http://lintcode.com/en/problem/continuous-subarray-sum/)| [Python](./Python//402-continuous-subarray-sum.py)| _O(n)_ | _O(1)_ | Easy | Facebook | |
 |404|[Subarray Sum II](http://lintcode.com/en/problem/subarray-sum-ii/)| [C++](./C++/subarray-sum-ii.cpp)| _O(nlogn)_ | _O(n)_ | Hard | | Two Pointers, Binary Search |
 |405|[Submatrix Sum](http://lintcode.com/en/problem/submatrix-sum/)| [C++](./C++/submatrix-sum.cpp)| _O(m * n^2)_ | _O(m)_ | Hard | | Hash |
 |406|[Minimum Size Subarray Sum](http://lintcode.com/en/problem/minimum-size-subarray-sum/)| [C++](./C++/minimum-size-subarray-sum.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | Two Pointers, Binary Search |
@@ -289,6 +349,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |464|[Sort Integers II](http://lintcode.com/en/problem/sort-integers-ii/)| [C++](./C++/sort-integers-ii.cpp)| _O(nlogn)_ | _O(n)_ | Easy | | Merge Sort, Heap Sort, Quick Sort |
 |507|[Wiggle Sort II](http://lintcode.com/en/problem/wiggle-sort-ii/)| [C++](./C++/wiggle-sort-ii.cpp)|  _O(n)_ on average | _O(1)_ | Medium | LeetCode | Tri Partition |
 |508|[Wiggle Sort](http://lintcode.com/en/problem/wiggle-sort/)| [C++](./C++/wiggle-sort.cpp)| _O(n)_ | _O(1)_ | Medium | LeetCode | |
+|1465|[Order Of Tasks](http://lintcode.com/en/problem/order-of-tasks/)| [Python](./Python/1465-order-of-tasks.py)| _O(n)_ | _O(1)_ | Medium | | Greedy |
 
 ## Recursion
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
@@ -338,7 +399,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 |65|[Median of two Sorted Arrays](http://lintcode.com/en/problem/median-of-two-sorted-arrays/)| [C++](./C++/median-of-two-sorted-arrays.cpp)| _O(log(min(m, n)))_ | _O(1)_ | Hard | Uber,LeetCode 4, EPI | Tricky |
 |74|[First Bad Version](http://lintcode.com/en/problem/first-bad-version/)| [C++](./C++/first-bad-version.cpp)| _O(logn)_ | _O(1)_ | Medium | | |
 |75|[Find Peak Element](http://lintcode.com/en/problem/find-peak-element/)| [C++](./C++/find-peak-element.cpp) [Python](./Python/find-peak-element.py)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
-|76|[Longest Increasing Subsequence](http://lintcode.com/en/problem/longest-increasing-subsequence/)| [C++](./C++/longest-increasing-subsequence.cpp) [Python](./Python/76-longest-increasing-subsequence.py) | _O(nlogn)_ | _O(n)_ | Medium | CTCI, Leetcode | |
+|76|[Longest Increasing Subsequence](http://lintcode.com/en/problem/longest-increasing-subsequence/)| [C++](./C++/longest-increasing-subsequence.cpp) [Python](./Python/76-longest-increasing-subsequence.py) | _O(nlogn)_ | _O(n)_ | Medium | CTCI, Leetcode 300| |
 |141|[Sqrt(x)](http://lintcode.com/en/problem/sqrtx/)| [C++](./C++/sqrtx.cpp)| _O(logn)_ | _O(1)_ | Easy | LeetCode | |
 |159|[Find Minimum in Rotated Sorted Array](http://lintcode.com/en/problem/find-minimum-in-rotated-sorted-array/)| [C++](./C++/find-minimum-in-rotated-sorted-array.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
 |160|[Find Minimum in Rotated Sorted Array II](http://lintcode.com/en/problem/find-minimum-in-rotated-sorted-array-ii/)| [C++](./C++/find-minimum-in-rotated-sorted-array-ii.cpp)| _O(logn)_ | _O(1)_ | Medium | LeetCode | |
@@ -425,7 +486,7 @@ I'll keep updating for full summary and better solutions. Stay tuned for updates
 | # | Title | Solution | Time | Space | Difficulty | Tag | Note |
 |---| ----- | -------- | ---- | ----- | ---------- | --- | ---- |
 |20|[Dices Sum](http://lintcode.com/en/problem/dices-sum/)| [C++](./C++/dices-sum.cpp)| _O(n^2)_ | _O(n)_ | Hard | | |
-|29|[Interleaving String](http://lintcode.com/en/problem/interleaving-string/)| [C++](./C++/interleaving-string.cpp)| _O(m * n)_ | _O(min(m, n))_ | Medium | EPI | |
+|29|[Interleaving String](http://lintcode.com/en/problem/interleaving-string/)|[Python](../../../LeetCode/blob/master/Python/interleaving-string.py) [C++](./C++/interleaving-string.cpp)| _O(m * n)_ | _O(min(m, n))_ | Medium | LeetCode 97, EPI | |
 |43|[Maximum Subarray III](http://lintcode.com/en/problem/maximum-subarray-iii/)| [C++](./C++/maximum-subarray-iii.cpp)| _O(k * n)_ | _O(k * n)_ | Hard | | |
 |77|[Longest Common Subsequence](http://lintcode.com/en/problem/longest-common-subsequence/)| [C++](./C++/longest-common-subsequence.cpp)| _O(m * n)_ | _O(min(m, n))_ | Medium | | |
 |79|[Longest Common Substring](http://lintcode.com/en/problem/longest-common-substring/)| [C++](./C++/longest-common-substring.cpp)| _O(m * n)_ | _O(min(m, n))_ | Medium | | |

@@ -38,36 +38,36 @@ class TinyUrl2: # USE THIS
     def shortKeyToid(self, short_key):
         id = 0
         for c in short_key:
-            if 'a' <= c and c <= 'z':
-                id = id * 62 + ord(c) - ord('a')
-            if 'A' <= c and c <= 'Z':
-                id = id * 62 + ord(c) - ord('A') + 26
-            if '0' <= c and c <= '9':
-                id = id * 62 + ord(c) - ord('0') + 52
-
+            if 'a' <= c <= 'z':
+                digit = ord(c) - ord('a')
+            elif 'A' <= c <= 'Z':
+                digit = ord(c) - ord('A') + 26
+            else:
+                digit = ord(c) - ord('0') + 52
+            id = id * 62 + digit
         return id
 
     # @param long_url a long url
     # @param a short key
     # @return a short url starts with http://tiny.url/
     def createCustom(self, long_url, short_key):
-        # if already store by hash, cannot createCustom
+        prefix = "http://tiny.url/"
+
+        # check if long_url already shortened or short_key was used
         id = self.shortKeyToid(short_key)
-        if id in self.id2url and self.id2url[id] != long_url or \
-                long_url in self.url2id and self.url2id[long_url] != id:
+        if long_url in self.url2id:
+            return prefix + short_key if self.url2id[long_url] == id else "error"
+        if id in self.id2url:
+            return prefix + short_key if self.id2url[id] == long_url else "error"
+
+        # check existing custom url
+        if short_key in self.custom_s2l and self.custom_s2l[short_key] != long_url or \
+                long_url in self.custom_l2s and self.custom_l2s[long_url] != short_key:
             return "error"
 
-        short_url = "http://tiny.url/" + short_key
-        if id in self.id2url or long_url in self.url2id:
-            return short_url
-
-        if short_url in self.custom_s2l and self.custom_s2l[short_url] != long_url or \
-                long_url in self.custom_l2s and self.custom_l2s[long_url] != short_url:
-            return "error"
-
-        self.custom_l2s[long_url] = short_url
-        self.custom_s2l[short_url] = long_url
-        return short_url
+        self.custom_l2s[long_url] = short_key
+        self.custom_s2l[short_key] = long_url
+        return prefix + short_key
 
     # @param {string} long_url a long url
     # @return {string} a short url starts with http://tiny.url/
@@ -81,9 +81,9 @@ class TinyUrl2: # USE THIS
             id = self.url2id[long_url]
         else:
             for a in long_url:
-                id = (id * 256 + ord(a)) % 56800235584L
+                id = (id * 256 + ord(a)) % (62**6)
             while id in self.id2url and self.id2url[id] != long_url:
-                id = (id + 1) % 56800235584L
+                id = (id + 1) % (62**6)
 
         self.id2url[id] = long_url
         self.url2id[long_url] = id
@@ -148,13 +148,13 @@ class TinyUrl2_ming: # easy to understand: short url to long url mapping, takes 
         return self.s2l.get(short_url)
 
     def idToShortUrl(self, id):
-        ch = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        ch = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         s = ""
         while id > 0:
             id, key = divmod(id, 62)
             s = ch[key] + s
 
-        s = 'a' * (6 - len(s)) + s
+        s = '0' * (6 - len(s)) + s
         return s
 
 

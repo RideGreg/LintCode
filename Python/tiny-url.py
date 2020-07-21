@@ -25,10 +25,12 @@ which can be expressed in 6-char base62 number; save in key-value pair.
 
 class TinyUrl:
     def __init__(self):
+        # USE a middleman a UNIQUE num in [0, 62^6) btwn short and long urls
+
         # Store by id saves space, compared to store 6-char short url.
         # Python int is 24 bytes: n=62**10, n.__sizeof__() ==> 24
         # long is 36 bytes: n=62**11, n.__sizeof__() ==> 36
-        # str is 37+#ofChar: 'abcd'.__sizeof__() ==> 41
+        # str is 37+#ofChar: 'abcdef'.__sizeof__() ==> 43
         self.id2l = {}
 
     """
@@ -36,23 +38,28 @@ class TinyUrl:
     @return: a short url starts with http://tiny.url/
     """
     def longToShort(self, url):
-        # 62^6 = 56800235584L, L just labels a larger number than normal 32 or 64 bit interger, no actual difference
+        # 62^6 = 56800235584L (56B), L just labels a larger number than normal 32 or 64 bit interger, no actual difference
+        # 62^5 = 0.91B not enough (suppose 10B webpages and 100B urls, just to cover 1% urls => 1B urls)
+        # 2^32 = 4B
+
+        # convert long url str to a UNIQUE num in [0,62^6)
         threshold = 62 ** 6
         id = 0
         for c in url:
-            id = (id * 256 + ord(c)) % threshold
+            id = (id * 256 + ord(c)) % threshold        # c is ascii [0-255), base256
         while id in self.id2l and self.id2l[id] != url: # hash collision
             id = (id + 1) % threshold
 
         self.id2l[id] = url
 
-        ch = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        # Then map num to 6-char short str. This is 1-1 mapping, no collision.
+        ch = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         s = ""
         while id > 0:
             id, key = divmod(id, 62)
-            s = ch[key] + s
+            s = ch[key] + s          # append to string head
 
-        s = 'a' * (6 - len(s)) + s
+        s = '0' * (6 - len(s)) + s   # left fill, '0' like 0 in base10, '000000' is smallest
         return "http://tiny.url/" + s
 
     """
@@ -61,12 +68,18 @@ class TinyUrl:
     """
     def shortToLong(self, url):
         id = 0
-        for c in url[-6:]: # skip domain name
+        for c in url[-6:]: # strip domain name
             if 'a' <= c <= 'z':
-                id = id * 62 + (ord(c) - ord('a'))
+                digit = ord(c) - ord('a')
             elif 'A' <= c <= 'Z':
-                id = id * 62 + (ord(c) - ord('A') + 26)
+                digit = ord(c) - ord('A') + 26
             else:
-                id = id * 62 + (ord(c) - ord('0') + 52)
+                digit = ord(c) - ord('0') + 52
+            id = id * 62 + digit
 
         return self.id2l.get(id)
+
+obj = TinyUrl()
+sUrl = obj.longToShort('https:/www.cnn.com')
+print(sUrl) # http://tiny.url/ZjbjZh
+print(obj.shortToLong(sUrl)) # https:/www.cnn.com

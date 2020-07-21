@@ -45,4 +45,4 @@ class LoadBalancer:
         if not self.ids:
             return None
         import random
-        return random.choice(list(self.ids))
+        return random.choice(list(self.ids)) # convert set to list, otherwise TypeError: 'set' object is not subscriptable
